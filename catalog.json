@@ -42,6 +42,39 @@
             }
           ]
         },
+         {
+          "id": "d-1-2",
+          "title": "Curso 2. Marketing Verde y Comunicación",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "1. Diplomado en Acción Climática/Curso 2. Marketing Verde y Comunicación/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-1-2-1",
+              "title": "Fundamentos de marketing y comunicación aplicados a la sostenibilidad",
+              "filename": "fundamentos-de-marketing-y-comunicacion-aplicados-a-la-sostenibilidad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-2-2",
+              "title": "Herramientas y canales para comunicar la sostenibilidad",
+              "filename": "unidad-2-herramientas-y-canales-para-comunicar-la-sostenibilidad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-2-3",
+              "title": "greenwashing credibilidad y analisis critico",
+              "filename": "unidad-3-greenwashing-credibilidad-y-analisis-critico.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-2-4",
+              "title": "Diseño de una estrategia integrada de marketing verde",
+              "filename": "diseno-de-una-estrategia-integrada-de-marketing-verde.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
         {
           "id": "d-1-3",
           "title": "Curso 3. Biodiversidad y Capital Natural",
