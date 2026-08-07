@@ -41,8 +41,8 @@ base  (una sola vez para todo el archivo)
       "id": "da-1",
       "title": "1. Diplomado en Acción Climática",
       "description": "Diplomado Avanzado 1",
-      "color": "linear-gradient(135deg,#7C3AED 0%,#5B21B6 100%)",
-      "icon": "🎓",
+      "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
+      "icon": "graduation",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -116,7 +116,32 @@ Para completar uno:
 | Logo | Reemplaza `logo.png` |
 | Colores y tipografía | Variables en `:root` de `styles.css` |
 | Color/icono de un diplomado | Campos `color` e `icon` en `catalog.json` |
+| Paleta por defecto | `FALLBACK_COLORS` en `app.js` |
 | Datos del catálogo | `catalog.json` |
+
+### Colores de las tarjetas
+
+La línea superior de cada tarjeta es la única nota de color del nivel 1. Son
+cuatro tramos de un mismo recorrido morado → cyan de la marca, que se repiten
+cíclicamente. Deliberadamente **no** hay ocho familias de color distintas: con
+20 tarjetas en pantalla, resultaba demasiado ruidoso.
+
+Si quieres otra paleta, cambia `FALLBACK_COLORS` en `app.js` y el campo `color`
+de cada diplomado en `catalog.json`.
+
+### Iconos
+
+Son SVG monocromos que heredan el color del texto (`currentColor`), no emojis.
+El campo `icon` de cada diplomado lleva un **nombre**, no un símbolo:
+
+`graduation` · `book` · `bulb` · `flask` · `trophy` · `chart` · `target` ·
+`network` · `bolt` · `star`
+
+Los define `ICON_PATHS` en `app.js`, que además tiene los de interfaz (`home`,
+`folder`, `layers`, `package`, `clock`, `calendar`, `download`, `back`, `check`,
+`search`, `warning`, `error`). Para añadir uno, mete su trazado en ese objeto:
+un `viewBox` de `0 0 24 24`, sin `fill` y sin colores fijos. Un nombre que no
+exista simplemente no pinta nada, no rompe la página.
 
 ---
 
