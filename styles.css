@@ -3,7 +3,8 @@
    Design System: Dark mode + vibrant purple/cyan gradients
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* La fuente se carga con <link> en index.html: un @import aquí obliga al
+   navegador a descargar este CSS completo antes de empezar a pedir la fuente. */
 
 /* --- CSS Variables --- */
 :root {
@@ -46,7 +47,17 @@
 /* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* Necesario: .btn declara display:inline-flex y ganaría al display:none
+   que el navegador aplica por defecto al atributo [hidden]. */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
+
+/* Foco visible y consistente para navegación con teclado */
+:focus-visible {
+  outline: 2px solid var(--purple-light);
+  outline-offset: 2px;
+}
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
@@ -262,19 +273,6 @@ body::before {
   white-space: nowrap;
 }
 
-.btn-primary {
-  background: var(--grad-primary);
-  color: white;
-  box-shadow: 0 4px 16px rgba(124,58,237,0.35);
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(124,58,237,0.5);
-}
-
-.btn-primary:active { transform: translateY(0); }
-
 .btn-ghost {
   background: var(--bg-card);
   color: var(--text-secondary);
@@ -302,17 +300,14 @@ body::before {
   box-shadow: 0 4px 16px rgba(6,182,212,0.2);
 }
 
-.btn-danger {
-  background: rgba(239,68,68,0.1);
-  color: #F87171;
-  border: 1px solid rgba(239,68,68,0.2);
-  padding: 6px 12px;
-  font-size: 0.78rem;
-}
-
-.btn-danger:hover {
-  background: rgba(239,68,68,0.18);
-  border-color: rgba(239,68,68,0.4);
+/* Unidad sin carpeta de SharePoint registrada: no hay nada que descargar */
+.btn-pending {
+  background: rgba(245,158,11,0.08);
+  color: #FCD34D;
+  border: 1px solid rgba(245,158,11,0.2);
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  cursor: not-allowed;
 }
 
 /* --- Cards Grid --- */
@@ -321,6 +316,19 @@ body::before {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
 }
+
+/* Las tarjetas navegables son <button>: foco, Enter/Espacio y rol correctos
+   sin JavaScript extra. Esto neutraliza los estilos por defecto del botón. */
+.card-da, .card-dip {
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  width: 100%;
+}
+
+.card-da > span, .card-dip > span { display: flex; }
+
+.card-da-title, .card-da-desc, .card-dip-title, .card-dip-desc { display: block; }
 
 /* Level 1 — Diplomados Avanzados */
 .card-da {
@@ -361,6 +369,7 @@ body::before {
   width: 46px;
   height: 46px;
   border-radius: 12px;
+  border: 1px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,7 +377,7 @@ body::before {
   flex-shrink: 0;
 }
 
-.card-da-info { flex: 1; }
+.card-da-info { flex: 1; flex-direction: column; }
 
 .card-da-title {
   font-size: 1rem;
@@ -391,14 +400,6 @@ body::before {
   padding-top: 12px;
   border-top: 1px solid var(--border);
   margin-top: auto;
-}
-
-.card-da-meta {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }
 
 .card-da-count {
@@ -513,6 +514,17 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  list-style: none;
+}
+
+.unidad-index {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 1.5em;
+  text-align: right;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
 }
 
 .unidad-card {
@@ -548,6 +560,8 @@ body::before {
 
 .unidad-info { flex: 1; min-width: 0; }
 
+.unidad-title, .unidad-filename { display: block; }
+
 .unidad-title {
   font-size: 0.95rem;
   font-weight: 600;
@@ -577,53 +591,39 @@ body::before {
   white-space: nowrap;
 }
 
-/* --- Add Card Button --- */
-.card-add {
-  background: transparent;
-  border: 2px dashed rgba(124,58,237,0.3);
-  border-radius: var(--radius-card);
-  padding: 30px 22px;
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 180px;
+/* --- Estados "pendiente" --- */
+.unidad-card.is-pending { opacity: 0.62; }
+
+.unidad-card.is-pending:hover {
+  border-color: rgba(245,158,11,0.3);
+  transform: none;
+}
+
+.unidad-card.is-pending .unidad-icon {
+  background: rgba(245,158,11,0.1);
+  border-color: rgba(245,158,11,0.2);
+}
+
+.card-dip-stat.is-pending { color: #FCD34D; }
+
+/* --- Atajo de búsqueda --- */
+.search-hint {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 0.7rem;
+  font-family: inherit;
   color: var(--text-muted);
-  font-family: 'Inter', sans-serif;
+  pointer-events: none;
 }
 
-.card-add:hover {
-  border-color: var(--purple);
-  background: rgba(124,58,237,0.06);
-  color: var(--purple-light);
-  transform: translateY(-2px);
-}
-
-.card-add-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  background: rgba(124,58,237,0.1);
-  border: 1px solid rgba(124,58,237,0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  transition: var(--transition);
-}
-
-.card-add:hover .card-add-icon {
-  background: rgba(124,58,237,0.2);
-  border-color: var(--purple);
-}
-
-.card-add-label {
-  font-size: 0.875rem;
-  font-weight: 600;
-}
+.header-search input:focus ~ .search-hint,
+.header-search input:not(:placeholder-shown) ~ .search-hint { opacity: 0; }
 
 /* --- Empty State --- */
 .empty-state {
@@ -649,113 +649,6 @@ body::before {
 }
 
 .empty-state p { font-size: 0.875rem; max-width: 320px; }
-
-/* --- Modal --- */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  backdrop-filter: blur(6px);
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  opacity: 0;
-  visibility: hidden;
-  transition: var(--transition);
-}
-
-.modal-overlay.open {
-  opacity: 1;
-  visibility: visible;
-}
-
-.modal {
-  background: var(--bg-surface);
-  border: 1px solid rgba(124,58,237,0.25);
-  border-radius: 20px;
-  padding: 32px;
-  width: 100%;
-  max-width: 480px;
-  box-shadow: 0 24px 64px rgba(0,0,0,0.6), var(--shadow-glow);
-  transform: scale(0.95) translateY(10px);
-  transition: var(--transition);
-}
-
-.modal-overlay.open .modal {
-  transform: scale(1) translateY(0);
-}
-
-.modal-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-
-.modal-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.modal-close {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  width: 34px;
-  height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--text-muted);
-  font-size: 1rem;
-  transition: var(--transition);
-}
-
-.modal-close:hover { color: var(--text-primary); border-color: var(--border-hover); }
-
-.form-group { margin-bottom: 18px; }
-
-.form-label {
-  display: block;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.form-input, .form-textarea {
-  width: 100%;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 14px;
-  font-size: 0.9rem;
-  color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
-  transition: var(--transition);
-  outline: none;
-}
-
-.form-textarea { resize: vertical; min-height: 80px; }
-
-.form-input::placeholder, .form-textarea::placeholder { color: var(--text-muted); }
-
-.form-input:focus, .form-textarea:focus {
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(124,58,237,0.12);
-}
-
-.form-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-top: 24px;
-}
 
 /* --- Toast --- */
 .toast-container {
@@ -820,7 +713,17 @@ body::before {
 
 @media (max-width: 480px) {
   .page-header { flex-direction: column; }
-  .modal { padding: 22px; }
+  .unidad-index { display: none; }
+}
+
+/* Respeta a quien pide menos animación en su sistema */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+  .card-da:hover, .card-dip:hover, .unidad-card:hover { transform: none; }
 }
 
 /* --- Scrollbar --- */

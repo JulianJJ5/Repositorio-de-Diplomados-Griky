@@ -1,58 +1,2845 @@
 {
+  "base": "https://grikyco136.sharepoint.com/sites/GrikyRecursos/Documentos%20compartidos/Contenidos/Requerimientos%20-%20Clientes/Griky%20Genius%204%2E0/Griky%20Academy/",
   "catalog": [
     {
       "id": "da-1",
-      "title": "Diplomado Avanzado 1",
-      "description": "Primer bloque de formación avanzada",
-      "color": "#7C3AED",
+      "title": "1. Diplomado en Acción Climática",
+      "description": "Diplomado Avanzado 1",
+      "color": "linear-gradient(135deg,#7C3AED 0%,#5B21B6 100%)",
+      "icon": "🎓",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
           "id": "d-1-1",
-          "title": "Diplomado 1",
-          "description": "Módulo introductorio",
+          "title": "Curso 1. Energías Renovables y Transición Energética",
+          "description": "Curso 1",
           "createdAt": "2026-01-15",
+          "folder": "1. Diplomado en Acción Climática/Curso 1. Energías Renovables y Transición Energética/Producción y diseño/SCORMS",
           "unidades": [
-            { "id": "u-1-1-1", "title": "Unidad 1", "filename": "unidad-1.zip", "path": "scorms/da-1/d-1/unidad-1.zip", "createdAt": "2026-01-15", "size": "" },
-            { "id": "u-1-1-2", "title": "Unidad 2", "filename": "unidad-2.zip", "path": "scorms/da-1/d-1/unidad-2.zip", "createdAt": "2026-01-20", "size": "" },
-            { "id": "u-1-1-3", "title": "Unidad 3", "filename": "unidad-3.zip", "path": "scorms/da-1/d-1/unidad-3.zip", "createdAt": "2026-01-25", "size": "" },
-            { "id": "u-1-1-4", "title": "Unidad 4", "filename": "unidad-4.zip", "path": "scorms/da-1/d-1/unidad-4.zip", "createdAt": "2026-01-30", "size": "" }
-          ]
-        },
-        {
-          "id": "d-1-2",
-          "title": "Diplomado 2",
-          "description": "Módulo de desarrollo",
-          "createdAt": "2026-02-01",
-          "unidades": [
-            { "id": "u-1-2-1", "title": "Unidad 1", "filename": "unidad-1.zip", "path": "scorms/da-1/d-2/unidad-1.zip", "createdAt": "2026-02-01", "size": "" },
-            { "id": "u-1-2-2", "title": "Unidad 2", "filename": "unidad-2.zip", "path": "scorms/da-1/d-2/unidad-2.zip", "createdAt": "2026-02-05", "size": "" },
-            { "id": "u-1-2-3", "title": "Unidad 3", "filename": "unidad-3.zip", "path": "scorms/da-1/d-2/unidad-3.zip", "createdAt": "2026-02-10", "size": "" },
-            { "id": "u-1-2-4", "title": "Unidad 4", "filename": "unidad-4.zip", "path": "scorms/da-1/d-2/unidad-4.zip", "createdAt": "2026-02-15", "size": "" }
+            {
+              "id": "u-1-1-1",
+              "title": "Fundamentos de la Transición Energética",
+              "filename": "unidad-1-fundamentos-de-la-transicion-energetica.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-1-2",
+              "title": "Tecnologías Renovables: Cómo Funcionan y Cómo se Desempeñan",
+              "filename": "unidad-2-tecnologias-renovables-como-funcionan-y-como-se-desempenan.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-1-3",
+              "title": "Viabilidad de Proyectos Renovables: Técnica, Económica y Regulatoria",
+              "filename": "unidad-3-viabilidad-de-proyectos-renovables-tecnica-economica-y-regulatoria.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-1-4",
+              "title": "Diseño de la Estrategia de Transición Energética",
+              "filename": "unidad-4-diseno-de-la-estrategia-de-transicion-energetica.zip",
+              "createdAt": "2026-01-15"
+            }
           ]
         },
         {
           "id": "d-1-3",
-          "title": "Diplomado 3",
-          "description": "Módulo avanzado",
-          "createdAt": "2026-03-01",
+          "title": "Curso 3. Biodiversidad y Capital Natural",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "1. Diplomado en Acción Climática/Curso 3. Biodiversidad y Capital Natural/Producción y diseño/SCORMS",
           "unidades": [
-            { "id": "u-1-3-1", "title": "Unidad 1", "filename": "unidad-1.zip", "path": "scorms/da-1/d-3/unidad-1.zip", "createdAt": "2026-03-01", "size": "" },
-            { "id": "u-1-3-2", "title": "Unidad 2", "filename": "unidad-2.zip", "path": "scorms/da-1/d-3/unidad-2.zip", "createdAt": "2026-03-05", "size": "" },
-            { "id": "u-1-3-3", "title": "Unidad 3", "filename": "unidad-3.zip", "path": "scorms/da-1/d-3/unidad-3.zip", "createdAt": "2026-03-10", "size": "" },
-            { "id": "u-1-3-4", "title": "Unidad 4", "filename": "unidad-4.zip", "path": "scorms/da-1/d-3/unidad-4.zip", "createdAt": "2026-03-15", "size": "" }
+            {
+              "id": "u-1-3-1",
+              "title": "Fundamentos de Biodiversidad y Capital Natural",
+              "filename": "fundamentos-de-biodiversidad-y-capital-natural.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-3-2",
+              "title": "Marcos, Métricas y Herramientas",
+              "filename": "marcos-metricas-y-herramientas.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-3-3",
+              "title": "Riesgos, Valoración y Metas Basadas en Ciencia",
+              "filename": "unidad-3-riesgos-valoracion-y-metas-basadas-en-ciencia.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-3-4",
+              "title": "Estrategia, Gobernanza y Reporte de Biodiversidad",
+              "filename": "unidad-4-estrategia-gobernanza-y-reporte-de-biodiversidad.zip",
+              "createdAt": "2026-01-15"
+            }
           ]
         },
         {
           "id": "d-1-4",
-          "title": "Diplomado 4",
-          "description": "Módulo de cierre",
-          "createdAt": "2026-04-01",
+          "title": "Curso 4. Movilidad Sostenible y Ciudades Inteligentes",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "1. Diplomado en Acción Climática/Curso 4. Movilidad Sostenible y Ciudades Inteligentes/Producción y diseño/SCORMS",
           "unidades": [
-            { "id": "u-1-4-1", "title": "Unidad 1", "filename": "unidad-1.zip", "path": "scorms/da-1/d-4/unidad-1.zip", "createdAt": "2026-04-01", "size": "" },
-            { "id": "u-1-4-2", "title": "Unidad 2", "filename": "unidad-2.zip", "path": "scorms/da-1/d-4/unidad-2.zip", "createdAt": "2026-04-05", "size": "" },
-            { "id": "u-1-4-3", "title": "Unidad 3", "filename": "unidad-3.zip", "path": "scorms/da-1/d-4/unidad-3.zip", "createdAt": "2026-04-10", "size": "" },
-            { "id": "u-1-4-4", "title": "Unidad 4", "filename": "unidad-4.zip", "path": "scorms/da-1/d-4/unidad-4.zip", "createdAt": "2026-04-15", "size": "" }
+            {
+              "id": "u-1-4-1",
+              "title": "Fundamentos de la Movilidad Sostenible y las Ciudades Inteligentes",
+              "filename": "fundamentos-de-la-movilidad-sostenible-y-las-ciudades-inteligentes.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-4-2",
+              "title": "Tecnologías y Soluciones para la Movilidad y la Ciudad Inteligente",
+              "filename": "tecnologias-y-soluciones-para-la-movilidad-y-la-ciudad-inteligente.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-4-3",
+              "title": "Políticas, Gobernanza y Financiación de la Movilidad Sostenible",
+              "filename": "unidad-3-politicas-gobernanza-y-financiacion-de-la-movilidad-sostenible.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-1-4-4",
+              "title": "Diseño Integral de una Estrategia de Movilidad Sostenible",
+              "filename": "unidad-4-diseno-integral-de-una-estrategia-de-movilidad-sostenible.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-2",
+      "title": "2. Diplomado en Bienestar Integral",
+      "description": "Diplomado Avanzado 2",
+      "color": "linear-gradient(135deg,#0EA5E9 0%,#06B6D4 100%)",
+      "icon": "📚",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-2-1",
+          "title": "Curso 1. Liderazgo Personal y Autogestión",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "2. Diplomado en Bienestar Integral/Curso 1. Liderazgo Personal y Autogestión/SCORMS",
+          "unidades": [
+            {
+              "id": "u-2-1-1",
+              "title": "Fundamentos del Liderazgo Personal",
+              "filename": "fundamentos-del-liderazgo-personal.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-1-2",
+              "title": "Inteligencia Emocional y Toma de Decisiones",
+              "filename": "inteligencia-emocional-y-toma-de-decisiones.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-1-3",
+              "title": "Productividad Personal y Gestión del Tiempo",
+              "filename": "productividad-personal-y-gestion-del-tiempo.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-1-4",
+              "title": "Plan de Desarrollo Personal y Liderazgo Integrado",
+              "filename": "unidad-4-plan-de-desarrollo-personal-y-liderazgo-integrado.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-2-2",
+          "title": "Curso 2. Comunicación Efectiva Multicanal",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "2. Diplomado en Bienestar Integral/Curso 2. Comunicación Efectiva Multicanal/SCORMS",
+          "unidades": [
+            {
+              "id": "u-2-2-1",
+              "title": "Los Cimientos de la Comunicación Efectiva",
+              "filename": "los-cimientos-de-la-comunicacion-efectiva.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-2-2",
+              "title": "Comunicación Escrita Multicanal",
+              "filename": "comunicacion-escrita-multicanal.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-2-3",
+              "title": "Comunicación Oral y Visual en Entornos Laborales",
+              "filename": "unidad-3-comunicacion-oral-y-visual-en-entornos-laborales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-2-4",
+              "title": "Estrategia Multicanal y Adaptabilidad Comunicativa",
+              "filename": "estrategia-multicanal-y-adaptabilidad-comunicativa.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-2-3",
+          "title": "Curso 3. Mindfulness y Bienestar Digital",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "2. Diplomado en Bienestar Integral/Curso 3. Mindfulness y Bienestar Digital/SCORMS",
+          "unidades": [
+            {
+              "id": "u-2-3-1",
+              "title": "Atención en la Era Digital: Fundamentos del Mindfulness",
+              "filename": "unidad-1-atencion-en-la-era-digital-fundamentos-del-mindfulness.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-3-2",
+              "title": "Hábitos Digitales y su Impacto en el Bienestar",
+              "filename": "unidad-2-habitos-digitales-y-su-impacto-en-el-bienestar.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-3-3",
+              "title": "Regulación Emocional y Presencia en Entornos Digitales",
+              "filename": "unidad-3-regulacion-emocional-y-presencia-en-entornos-digitales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-3-4",
+              "title": "Diseño del Plan Personal de Bienestar Digital",
+              "filename": "unidad-4-diseno-del-plan-personal-de-bienestar-digital.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-2-4",
+          "title": "Curso 4. Trabajo en Equipo Remoto e Híbrido",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "2. Diplomado en Bienestar Integral/Curso 4. Trabajo en Equipo Remoto e Híbrido/SCORMS",
+          "unidades": [
+            {
+              "id": "u-2-4-1",
+              "title": "Fundamentos del Trabajo en Equipo Remoto e Híbrido",
+              "filename": "unidad-1-fundamentos-del-trabajo-en-equipo-remoto-e-hibrido.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-4-2",
+              "title": "Herramientas y Rutinas de Colaboración Digital",
+              "filename": "unidad-2-herramientas-y-rutinas-de-colaboracion-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-4-3",
+              "title": "Confianza, Conflicto y Bienestar en el Equipo Remoto",
+              "filename": "unidad-3-confianza-conflicto-y-bienestar-en-el-equipo-remoto.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-2-4-4",
+              "title": "Diseño del Protocolo de Equipo Remoto e Híbrido",
+              "filename": "unidad-4-diseno-del-protocolo-de-equipo-remoto-e-hibrido.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-3",
+      "title": "3. Diplomado en Arquitectura Cloud",
+      "description": "Diplomado Avanzado 3",
+      "color": "linear-gradient(135deg,#EC4899 0%,#8B5CF6 100%)",
+      "icon": "💡",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-3-1",
+          "title": "Curso 1. Respaldo y Recuperación ante Desastres",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "3. Diplomado en Arquitectura Cloud/Curso 1. Respaldo y Recuperación ante Desastres/Producción y videos/SCORMS",
+          "unidades": [
+            {
+              "id": "u-3-1-1",
+              "title": "Fundamentos del Respaldo y la Recuperación ante Desastres",
+              "filename": "U1 - Fundamentos del respaldo y la recuperacion ante desastres.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-1-2",
+              "title": "Estrategias y Herramientas de Respaldo en la Nube",
+              "filename": "U2 - Estrategias y herramientas de respaldo en la nube.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-1-3",
+              "title": "Evaluación y Prueba de Planes de Recuperación",
+              "filename": "U3 - Evaluacion y prueba de planes de recuperacion.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-1-4",
+              "title": "Diseño e Integración del Plan de Recuperación",
+              "filename": "U4 - Diseno e integracion del plan de recuperacion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-3-2",
+          "title": "Curso 2. Respuesta a Incidentes y Análisis Forense",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "3. Diplomado en Arquitectura Cloud/Curso 2. Respuesta a Incidentes y Análisis Forense/Producción y Videos/SCORMS",
+          "unidades": [
+            {
+              "id": "u-3-2-1",
+              "title": "Fundamentos de Respuesta a Incidentes en Cloud",
+              "filename": "U1 - Fundamentos de respuesta a incidentes en cloud.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-2-2",
+              "title": "Detección, Contención y Análisis con Herramientas Cloud",
+              "filename": "U2 - Deteccion contencion y analisis con herramientas cloud.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-2-3",
+              "title": "Análisis Forense Digital y Erradicación",
+              "filename": "U3 - Analisis forense digital y erradicacion.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-2-4",
+              "title": "Recuperación, Lecciones Aprendidas y Plan Integrado",
+              "filename": "U4 - Recuperacion lecciones aprendidas y plan integrado.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-3-3",
+          "title": "Curso 3. Arquitecto de Soluciones AWS",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "3. Diplomado en Arquitectura Cloud/Curso 3. Arquitecto de Soluciones AWS/Producción y videos/SCORMS",
+          "unidades": [
+            {
+              "id": "u-3-3-1",
+              "title": "Fundamentos de Arquitectura y Seguridad en AWS",
+              "filename": "fundamentos-de-arquitectura-y-seguridad-en-aws.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-3-2",
+              "title": "Identidad, Acceso y Redes Seguras en AWS",
+              "filename": "identidad-acceso-y-redes-seguras-en-aws.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-3-3",
+              "title": "Análisis de Riesgos y Controles de Seguridad en AWS",
+              "filename": "unidad-3-analisis-de-riesgos-y-controles-de-seguridad-en-aws.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-3-4",
+              "title": "Continuidad del Negocio y Recuperación ante Desastres en AWS",
+              "filename": "unidad-4-continuidad-del-negocio-y-recuperacion-ante-desastres-en-aws.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-3-4",
+          "title": "Curso 4. Google Cloud Platform Esencial",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "3. Diplomado en Arquitectura Cloud/Curso 4. Google Cloud Platform Esencial/Producción y Videos/SCORMS",
+          "unidades": [
+            {
+              "id": "u-3-4-1",
+              "title": "Introducción a Google Cloud Platform: Consola, Recursos y Navegación",
+              "filename": "unidad-1-introduccion-a-google-cloud-platform-consola-recursos-y-navegacion.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-4-2",
+              "title": "Seguridad de Red y Control de Accesos en GCP",
+              "filename": "unidad-2-seguridad-de-red-y-control-de-accesos-en-gcp.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-4-3",
+              "title": "Protección de Datos, Monitoreo y Cumplimiento en GCP",
+              "filename": "proteccion-de-datos-monitoreo-y-cumplimiento-en-gcp.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-3-4-4",
+              "title": "Continuidad del Negocio y Recuperación ante Desastres en GCP",
+              "filename": "unidad-4-continuidad-del-negocio-y-recuperacion-ante-desastres-en-gcp.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-4",
+      "title": "4. Diplomado en Ciudadanía Digital",
+      "description": "Diplomado Avanzado 4",
+      "color": "linear-gradient(135deg,#10B981 0%,#06B6D4 100%)",
+      "icon": "🔬",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-4-1",
+          "title": "Curso 1. Cultura Digital y Transformación Social",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "4. Diplomado en Ciudadanía Digital/Curso 1. Cultura Digital y Transformación Social/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-4-1-1",
+              "title": "¿Qué es la Cultura Digital?",
+              "filename": "que-es-la-cultura-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-1-2",
+              "title": "Lo Digital Transforma lo Social",
+              "filename": "unidad-2-lo-digital-transforma-lo-social.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-1-3",
+              "title": "Tensiones y Desigualdades de lo Digital",
+              "filename": "unidad-3-tensiones-y-desigualdades-de-lo-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-1-4",
+              "title": "Hacia una Ciudadanía Digital Transformadora",
+              "filename": "unidad-4-hacia-una-ciudadania-digital-transformadora.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-4-2",
+          "title": "Curso 2. Derechos Digitales y Privacidad Online",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "4. Diplomado en Ciudadanía Digital/Curso 2. Derechos Digitales y Privacidad Online/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-4-2-1",
+              "title": "Fundamentos de los Derechos Digitales y la Privacidad",
+              "filename": "fundamentos-de-los-derechos-digitales-y-la-privacidad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-2-2",
+              "title": "Derechos en Tensión: Marcos Legales y Análisis de Casos",
+              "filename": "derechos-en-tension-marcos-legales-y-analisis-de-casos.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-2-3",
+              "title": "El Negocio de los Datos y las Amenazas Cotidianas a la Privacidad",
+              "filename": "el-negocio-de-los-datos-y-las-amenazas-cotidianas-a-la-privacidad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-2-4",
+              "title": "Ciudadanía Digital: Protege tus Derechos y los de tu Comunidad",
+              "filename": "ciudadania-digital-protege-tus-derechos-y-los-de-tu-comunidad.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-4-3",
+          "title": "Curso 3. Desinformación y Verificación de Hechos",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "4. Diplomado en Ciudadanía Digital/Curso 3. Desinformación y Verificación de Hechos/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-4-3-1",
+              "title": "Anatomía de la Desinformación: Qué es y Por Qué nos Engaña",
+              "filename": "anatomia-de-la-desinformacion-que-es-y-por-que-nos-engana.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-3-2",
+              "title": "Cómo se Fabrica y se Difunde la Desinformación",
+              "filename": "unidad-2-como-se-fabrica-y-se-difunde-la-desinformacion.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-3-3",
+              "title": "Verificar: Métodos para Separar lo Cierto de lo Engañoso",
+              "filename": "unidad-3-verificar-metodos-para-separar-lo-cierto-de-lo-enganoso.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-3-4",
+              "title": "Diseñar tu Defensa: Protocolo de Verificación y Respuesta",
+              "filename": "unidad-4-disenar-tu-defensa-protocolo-de-verificacion-y-respuesta.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-4-4",
+          "title": "Curso 4. Antropología Digital y Etnografía Online",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "4. Diplomado en Ciudadanía Digital/Curso 4. Antropología Digital y Etnografía Online/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-4-4-1",
+              "title": "Fundamentos de la Antropología Digital y la Mirada Etnográfica",
+              "filename": "fundamentos-de-la-antropologia-digital-y-la-mirada-etnografica.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-4-2",
+              "title": "Diseñar y Hacer Trabajo de Campo Digital",
+              "filename": "unidad-2-disenar-y-hacer-trabajo-de-campo-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-4-3",
+              "title": "Analizar e Interpretar la Cultura Digital",
+              "filename": "unidad-3-analizar-e-interpretar-la-cultura-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-4-4-4",
+              "title": "Comunicar el Estudio: El Informe Etnográfico Digital",
+              "filename": "unidad-4-comunicar-el-estudio-el-informe-etnografico-digital.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-5",
+      "title": "5. Diplomado en Blockchain Fundamental",
+      "description": "Diplomado Avanzado 5",
+      "color": "linear-gradient(135deg,#F59E0B 0%,#EF4444 100%)",
+      "icon": "🏆",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-5-1",
+          "title": "Curso 1. Fundamentos de Fintech y Banca Abierta",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "5. Diplomado en Blockchain Fundamental/Curso 1. Fundamentos de Fintech y Banca Abierta/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-5-1-1",
+              "title": "Fundamentos del Ecosistema Fintech",
+              "filename": "unidad-1-fundamentos-del-ecosistema-fintech.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-1-2",
+              "title": "Banca Abierta: Del Dato Cerrado al Dato Compartido",
+              "filename": "unidad-2-banca-abierta-del-dato-cerrado-al-dato-compartido.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-1-3",
+              "title": "Análisis de Viabilidad e Impacto: Riesgos, Regulación y Confianza",
+              "filename": "analisis-de-viabilidad-e-impacto-riesgos-regulacion-y-confianza.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-1-4",
+              "title": "Diseño de una Propuesta de Valor Fintech",
+              "filename": "diseno-de-una-propuesta-de-valor-fintech.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-5-2",
+          "title": "Curso 2. Blockchain y Tecnología de Registro Distribuido",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "5. Diplomado en Blockchain Fundamental/Curso 2. Blockchain y Tecnología de Registro Distribuido/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-5-2-1",
+              "title": "Fundamentos del Blockchain y el Registro Distribuido",
+              "filename": "fundamentos-del-blockchain-y-el-registro-distribuido.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-2-2",
+              "title": "Aplicaciones Financieras del Blockchain",
+              "filename": "aplicaciones-financieras-del-blockchain.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-2-3",
+              "title": "Impacto, Riesgos y Viabilidad en el Ecosistema Financiero",
+              "filename": "unidad-3-impacto-riesgos-y-viabilidad-en-el-ecosistema-financiero.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-2-4",
+              "title": "Evaluación y Diseño de Adopción Blockchain",
+              "filename": "unidad-4-evaluacion-y-diseno-de-adopcion-blockchain.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-5-3",
+          "title": "Curso 3. Pagos Digitales y Billeteras Móviles",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "5. Diplomado en Blockchain Fundamental/Curso 3. Pagos Digitales y Billeteras Móviles/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-5-3-1",
+              "title": "Fundamentos de los Pagos Digitales",
+              "filename": "fundamentos-de-los-pagos-digitales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-3-2",
+              "title": "Billeteras Móviles e Instrumentos de Pago",
+              "filename": "billeteras-moviles-e-instrumentos-de-pago.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-3-3",
+              "title": "Seguridad, Riesgos y Regulación de los Pagos Digitales",
+              "filename": "seguridad-riesgos-y-regulacion-de-los-pagos-digitales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-3-4",
+              "title": "Diseño de una Estrategia de Pagos Digitales",
+              "filename": "diseno-de-una-estrategia-de-pagos-digitales.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-5-4",
+          "title": "Curso 4. Criptomonedas y Trading Básico",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "5. Diplomado en Blockchain Fundamental/Curso 4. Criptomonedas y Trading Básico/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-5-4-1",
+              "title": "Fundamentos de las Criptomonedas y su Ecosistema",
+              "filename": "unidad-1-fundamentos-de-las-criptomonedas-y-su-ecosistema.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-4-2",
+              "title": "Cómo Funcionan los Mercados Cripto",
+              "filename": "como-funcionan-los-mercados-cripto.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-4-3",
+              "title": "Análisis y Gestión del Riesgo",
+              "filename": "unidad-3-analisis-y-gestion-del-riesgo.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-5-4-4",
+              "title": "Estrategia Integral de Criptoinversión",
+              "filename": "unidad-4-estrategia-integral-de-criptoinversion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-6",
+      "title": "6. Diplomado en Gestión de Startups",
+      "description": "Diplomado Avanzado 6",
+      "color": "linear-gradient(135deg,#6366F1 0%,#8B5CF6 100%)",
+      "icon": "📊",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-6-1",
+          "title": "Curso 1. Modelado Financiero para Startups",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "6. Diplomado en Gestión de Startups/Curso 1. Modelado Financiero para Startups/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-6-1-1",
+              "title": "Fundamentos del Modelado Financiero para Startups",
+              "filename": "fundamentos-del-modelado-financiero-para-startups.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-1-2",
+              "title": "Construcción del Modelo: Ingresos, Costos y Caja",
+              "filename": "construccion-del-modelo-ingresos-costos-y-caja.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-1-3",
+              "title": "Análisis de Viabilidad: Métricas y Escenarios",
+              "filename": "analisis-de-viabilidad-metricas-y-escenarios.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-1-4",
+              "title": "Modelo Integrado: Valuación y Narrativa para Inversionistas",
+              "filename": "modelo-integrado-valuacion-y-narrativa-para-inversionistas.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-6-2",
+          "title": "Curso 2. Fundraising: Capital de Riesgo y Ángeles",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "6. Diplomado en Gestión de Startups/Curso 2. Fundraising_ Capital de Riesgo y Ángeles/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-6-2-1",
+              "title": "Fundamentos del Fundraising: Actores, Etapas e Instrumentos",
+              "filename": "fundamentos-del-fundraising-actores-etapas-e-instrumentos.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-2-2",
+              "title": "Preparar la Ronda: Historia, Materiales y Primer Contacto",
+              "filename": "preparar-la-ronda-historia-materiales-y-primer-contacto.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-2-3",
+              "title": "Valuación, Dilución y Term Sheet",
+              "filename": "unidad-3-valuacion-dilucion-y-term-sheet.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-2-4",
+              "title": "Estrategia Integral de Fundraising y Negociación",
+              "filename": "unidad-4-estrategia-integral-de-fundraising-y-negociacion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-6-3",
+          "title": "Curso 3. Estrategia de E-commerce y Marketplace",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "6. Diplomado en Gestión de Startups/Curso 3. Estrategia de E-commerce y Marketplace/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-6-3-1",
+              "title": "Fundamentos del Comercio Electrónico y los Modelos de Venta Digital",
+              "filename": "fundamentos-del-comercio-electronico-y-los-modelos-de-venta-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-3-2",
+              "title": "Construcción del Modelo de Venta Digital",
+              "filename": "construccion-del-modelo-de-venta-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-3-3",
+              "title": "Análisis de Viabilidad: Métricas y Escenarios del Canal Digital",
+              "filename": "analisis-de-viabilidad-metricas-y-escenarios-del-canal-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-3-4",
+              "title": "Estrategia Integrada: Modelo Operativo y Narrativa para Inversionistas",
+              "filename": "estrategia-integrada-modelo-operativo-y-narrativa-para-inversionistas.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-6-4",
+          "title": "Curso 4. Metodologías Ágiles: Scrum y Kanban",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "6. Diplomado en Gestión de Startups/Curso 4. Metodologías Ágiles_ Scrum y Kanban/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-6-4-1",
+              "title": "Fundamentos del Pensamiento Ágil",
+              "filename": "fundamentos-del-pensamiento-agil.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-4-2",
+              "title": "Scrum: El Marco de la Cadencia",
+              "filename": "scrum-el-marco-de-la-cadencia.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-4-3",
+              "title": "Kanban: El Marco del Flujo",
+              "filename": "kanban-el-marco-del-flujo.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-6-4-4",
+              "title": "Diseño de un Sistema Ágil a la Medida",
+              "filename": "diseno-de-un-sistema-agil-a-la-medida.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-7",
+      "title": "7. Diplomado en Cultura Digital",
+      "description": "Diplomado Avanzado 7",
+      "color": "linear-gradient(135deg,#14B8A6 0%,#0EA5E9 100%)",
+      "icon": "🎯",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-7-1",
+          "title": "Curso 1. Podcasting y Narrativas Sonoras",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "7. Diplomado en Cultura Digital/Curso 1. Podcasting y Narrativas Sonoras/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-7-1-1",
+              "title": "Fundamentos del Podcast y la Narrativa Sonora",
+              "filename": "fundamentos-del-podcast-y-la-narrativa-sonora.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-1-2",
+              "title": "Guion y Estructura del Episodio",
+              "filename": "guion-y-estructura-del-episodio.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-1-3",
+              "title": "Producción y Control de Calidad con Criterio",
+              "filename": "produccion-y-control-de-calidad-con-criterio.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-1-4",
+              "title": "Identidad, Difusión y Sostenibilidad del Podcast",
+              "filename": "identidad-difusion-y-sostenibilidad-del-podcast.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-7-2",
+          "title": "Curso 2. Género, Tecnología e Inclusión",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "7. Diplomado en Cultura Digital/Curso 2. Género, Tecnología e Inclusión/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-7-2-1",
+              "title": "Fundamentos de Género, Tecnología e Inclusión",
+              "filename": "fundamentos-de-genero-tecnologia-e-inclusion.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-2-2",
+              "title": "Cómo la Tecnología Reproduce las Desigualdades de Género",
+              "filename": "como-la-tecnologia-reproduce-las-desigualdades-de-genero.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-2-3",
+              "title": "Derechos, Ciudadanía y Exclusión en el Entorno Digital",
+              "filename": "derechos-ciudadania-y-exclusion-en-el-entorno-digital.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-2-4",
+              "title": "Diseñar Tecnología e Iniciativas para la Inclusión",
+              "filename": "disenar-tecnologia-e-iniciativas-para-la-inclusion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-7-3",
+          "title": "Curso 3. Comunicación Intercultural Online",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "7. Diplomado en Cultura Digital/Curso 3. Comunicación Intercultural Online/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-7-3-1",
+              "title": "Fundamentos de la Comunicación Intercultural en Entornos Digitales",
+              "filename": "fundamentos-de-la-comunicacion-intercultural-en-entornos-digitales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-3-2",
+              "title": "Análisis de Tensiones Interculturales en Espacios Digitales",
+              "filename": "analisis-de-tensiones-interculturales-en-espacios-digitales.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-3-3",
+              "title": "Construcción de Mensajes Interculturales Efectivos",
+              "filename": "construccion-de-mensajes-interculturales-efectivos.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-3-4",
+              "title": "Diseño de una Estrategia de Comunicación Intercultural Online",
+              "filename": "diseno-de-una-estrategia-de-comunicacion-intercultural-online.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-7-4",
+          "title": "Curso 4. Futuros Digitales y Prospectiva",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "7. Diplomado en Cultura Digital/Curso 4. Futuros Digitales y Prospectiva/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-7-4-1",
+              "title": "Fundamentos de la Prospectiva y el Pensamiento de Futuros",
+              "filename": "fundamentos-de-la-prospectiva-y-el-pensamiento-de-futuros.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-4-2",
+              "title": "Exploración del Entorno: Escaneo y Análisis de Tendencias",
+              "filename": "exploracion-del-entorno-escaneo-y-analisis-de-tendencias.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-4-3",
+              "title": "Construcción de Escenarios de Futuro",
+              "filename": "construccion-de-escenarios-de-futuro.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-7-4-4",
+              "title": "Del Escenario a la Estrategia y la Narrativa de Futuros",
+              "filename": "del-escenario-a-la-estrategia-y-la-narrativa-de-futuros.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-8",
+      "title": "8. Diplomado en Desarrollo Web3",
+      "description": "Diplomado Avanzado 8",
+      "color": "linear-gradient(135deg,#F97316 0%,#EF4444 100%)",
+      "icon": "🧠",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-8-1",
+          "title": "Curso 1. Arquitectura de Microservicios",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "folder": "8. Diplomado en Desarrollo Web3/Curso 1. Arquitectura de Microservicios/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-8-1-1",
+              "title": "Fundamentos de la Arquitectura de Microservicios",
+              "filename": "fundamentos-de-la-arquitectura-de-microservicios.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-1-2",
+              "title": "Comunicación y Datos entre Servicios",
+              "filename": "comunicacion-y-datos-entre-servicios.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-1-3",
+              "title": "Resiliencia, Escalabilidad y Observabilidad",
+              "filename": "resiliencia-escalabilidad-y-observabilidad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-1-4",
+              "title": "Diseño Integral de una Arquitectura de Microservicios",
+              "filename": "diseno-integral-de-una-arquitectura-de-microservicios.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-8-2",
+          "title": "Curso 2. Web3 Contratos Inteligentes y DApps",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "folder": "8. Diplomado en Desarrollo Web3/Curso 2. Web3 Contratos Inteligentes y DApps/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-8-2-1",
+              "title": "Fundamentos de Web3 y Contratos Inteligentes",
+              "filename": "fundamentos-de-web3-y-contratos-inteligentes.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-2-2",
+              "title": "Construcción de Contratos Inteligentes",
+              "filename": "construccion-de-contratos-inteligentes.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-2-3",
+              "title": "Pruebas, Seguridad y Optimización de Contratos",
+              "filename": "pruebas-seguridad-y-optimizacion-de-contratos.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-2-4",
+              "title": "De Contrato a DApp: Integración y Entrega",
+              "filename": "de-contrato-a-dapp-integracion-y-entrega.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-8-3",
+          "title": "Curso 3. GraphQL y APIs Modernas",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "folder": "8. Diplomado en Desarrollo Web3/Curso 3. GraphQL y APIs Modernas/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-8-3-1",
+              "title": "Fundamentos de GraphQL y Diseño de Esquemas",
+              "filename": "fundamentos-de-graphql-y-diseno-de-esquemas.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-3-2",
+              "title": "Construcción de la API: Resolvers, Mutations y Fuentes de Datos",
+              "filename": "construccion-de-la-api-resolvers-mutations-y-fuentes-de-datos.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-3-3",
+              "title": "Análisis de Viabilidad: Rendimiento, Errores y Seguridad",
+              "filename": "analisis-de-viabilidad-rendimiento-errores-y-seguridad.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-3-4",
+              "title": "API Integrada: Consumo y Buenas Prácticas para Producción",
+              "filename": "api-integrada-consumo-y-buenas-practicas-para-produccion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        },
+        {
+          "id": "d-8-4",
+          "title": "Curso 4. JAMstack y Computación en el Borde",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "8. Diplomado en Desarrollo Web3/Curso 4. JAMstack y Computación en el Borde/Producción y diseño/SCORM",
+          "unidades": [
+            {
+              "id": "u-8-4-1",
+              "title": "Fundamentos de JAMstack y la Web Moderna",
+              "filename": "fundamentos-de-jamstack-y-la-web-moderna.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-4-2",
+              "title": "Construcción de un Sitio JAMstack",
+              "filename": "construccion-de-un-sitio-jamstack.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-4-3",
+              "title": "Computación en el Borde: Lógica Dinámica en la Web Estática",
+              "filename": "computacion-en-el-borde-logica-dinamica-en-la-web-estatica.zip",
+              "createdAt": "2026-01-15"
+            },
+            {
+              "id": "u-8-4-4",
+              "title": "Análisis de Rendimiento y Optimización",
+              "filename": "analisis-de-rendimiento-y-optimizacion.zip",
+              "createdAt": "2026-01-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-9",
+      "title": "9. Diplomado en Economía Circular",
+      "description": "Diplomado Avanzado 9",
+      "color": "linear-gradient(135deg,#0EA5E9 0%,#06B6D4 100%)",
+      "icon": "🌟",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-9-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-9-1-1",
+              "title": "Construccion del reporte con gri y sasb",
+              "filename": "construccion-del-reporte-con-gri-y-sasb.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-9-1-2",
+              "title": "Fundamentos del reporte esg y panorama de estandares",
+              "filename": "fundamentos-del-reporte-esg-y-panorama-de-estandares.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-9-1-3",
+              "title": "Integracion narrativa y comunicacion del reporte esg",
+              "filename": "integracion-narrativa-y-comunicacion-del-reporte-esg.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-9-1-4",
+              "title": "Riesgo climatico y aseguramiento con tcfd",
+              "filename": "riesgo-climatico-y-aseguramiento-con-tcfd.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-10",
+      "title": "10. Diplomado en Finanzas Sostenibles",
+      "description": "Diplomado Avanzado 10",
+      "color": "linear-gradient(135deg,#EC4899 0%,#8B5CF6 100%)",
+      "icon": "🎓",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-10-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-10-1-1",
+              "title": "Fundamentos de la inversion esg",
+              "filename": "unidad-1-fundamentos-de-la-inversion-esg.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-1-2",
+              "title": "Analisis y valoracion con criterios esg",
+              "filename": "unidad-2-analisis-y-valoracion-con-criterios-esg.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-1-3",
+              "title": "Riesgo impacto y greenwashing",
+              "filename": "unidad-3-riesgo-impacto-y-greenwashing.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-1-4",
+              "title": "Construccion de portafolios esg y tesis de inversion",
+              "filename": "unidad-4-construccion-de-portafolios-esg-y-tesis-de-inversion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-10-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-10-2-1",
+              "title": "Fundamentos de las microfinanzas digitales",
+              "filename": "unidad-1-fundamentos-de-las-microfinanzas-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-2-2",
+              "title": "Modelos productos y canales digitales",
+              "filename": "unidad-2-modelos-productos-y-canales-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-2-3",
+              "title": "Riesgos regulacion y proteccion",
+              "filename": "unidad-3-riesgos-regulacion-y-proteccion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-2-4",
+              "title": "Diseno de una propuesta integral",
+              "filename": "unidad-4-diseno-de-una-propuesta-integral.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-10-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-10-3-1",
+              "title": "Por que el conocimiento no basta fundamentos de las finanzas conductuales",
+              "filename": "unidad-1-por-que-el-conocimiento-no-basta-fundamentos-de-las-finanzas-conductuales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-3-2",
+              "title": "Sesgos en accion gasto ahorro y endeudamiento",
+              "filename": "unidad-2-sesgos-en-accion-gasto-ahorro-y-endeudamiento.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-3-3",
+              "title": "Decisiones de inversion y diseno de mejores entornos",
+              "filename": "unidad-3-decisiones-de-inversion-y-diseno-de-mejores-entornos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-3-4",
+              "title": "Diseno de programas de educacion financiera conductual",
+              "filename": "unidad-4-diseno-de-programas-de-educacion-financiera-conductual.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-10-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-10-4-1",
+              "title": "Fundamentos de los nfts y la tokenizacion",
+              "filename": "unidad-1-fundamentos-de-los-nfts-y-la-tokenizacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-4-2",
+              "title": "Crear y emitir un activo tokenizado",
+              "filename": "unidad-2-crear-y-emitir-un-activo-tokenizado.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-4-3",
+              "title": "Valor riesgo y seguridad de los activos tokenizados",
+              "filename": "unidad-3-valor-riesgo-y-seguridad-de-los-activos-tokenizados.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-10-4-4",
+              "title": "Tokenizacion de activos reales e integracion final",
+              "filename": "unidad-4-tokenizacion-de-activos-reales-e-integracion-final.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-11",
+      "title": "11. Diplomado en Gestión Ágil",
+      "description": "Diplomado Avanzado 11",
+      "color": "linear-gradient(135deg,#10B981 0%,#06B6D4 100%)",
+      "icon": "📚",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-11-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-11-1-1",
+              "title": "Fundamentos de la innovacion abierta y el venture corporativo",
+              "filename": "unidad-1-fundamentos-de-la-innovacion-abierta-y-el-venture-corporativo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-1-2",
+              "title": "Diseno de iniciativas de innovacion abierta",
+              "filename": "unidad-2-diseno-de-iniciativas-de-innovacion-abierta.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-1-3",
+              "title": "Analisis de viabilidad riesgos y gobernanza",
+              "filename": "unidad-3-analisis-de-viabilidad-riesgos-y-gobernanza.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-1-4",
+              "title": "Integracion hoja de ruta para crear valor desde el ecosistema",
+              "filename": "unidad-4-integracion-hoja-de-ruta-para-crear-valor-desde-el-ecosistema.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-11-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-11-2-1",
+              "title": "Fundamentos del intraemprendimiento y la innovacion corporativa",
+              "filename": "unidad-1-fundamentos-del-intraemprendimiento-y-la-innovacion-corporativa.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-2-2",
+              "title": "Identificacion de oportunidades y diseno de la iniciativa",
+              "filename": "unidad-2-identificacion-de-oportunidades-y-diseno-de-la-iniciativa.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-2-3",
+              "title": "Analisis de viabilidad y gestion del cambio",
+              "filename": "unidad-3-analisis-de-viabilidad-y-gestion-del-cambio.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-2-4",
+              "title": "Integracion del caso de negocio al pitch de innovacion",
+              "filename": "unidad-4-integracion-del-caso-de-negocio-al-pitch-de-innovacion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-11-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-11-3-1",
+              "title": "Fundamentos de la gestion de proyectos digitales",
+              "filename": "unidad-1-fundamentos-de-la-gestion-de-proyectos-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-3-2",
+              "title": "Construccion del tablero de proyecto",
+              "filename": "unidad-2-construccion-del-tablero-de-proyecto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-3-3",
+              "title": "Seguimiento y analisis del proyecto",
+              "filename": "unidad-3-seguimiento-y-analisis-del-proyecto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-3-4",
+              "title": "Sistema integrado de gestion de proyectos",
+              "filename": "unidad-4-sistema-integrado-de-gestion-de-proyectos.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-11-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-11-4-1",
+              "title": "Fundamentos del rol y del producto",
+              "filename": "unidad-1-fundamentos-del-rol-y-del-producto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-4-2",
+              "title": "Descubrimiento usuario datos y oportunidades",
+              "filename": "unidad-2-descubrimiento-usuario-datos-y-oportunidades.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-4-3",
+              "title": "Priorizacion y decisiones de producto",
+              "filename": "unidad-3-priorizacion-y-decisiones-de-producto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-11-4-4",
+              "title": "Del plan a la entrega de valor",
+              "filename": "unidad-4-del-plan-a-la-entrega-de-valor.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-12",
+      "title": "12. Diplomado en Gestión de la Innovación",
+      "description": "Diplomado Avanzado 12",
+      "color": "linear-gradient(135deg,#F59E0B 0%,#EF4444 100%)",
+      "icon": "💡",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-12-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-12-1-1",
+              "title": "Fundamentos de la transformacion digital",
+              "filename": "unidad-1-fundamentos-de-la-transformacion-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-1-2",
+              "title": "Diseno de la estrategia digital",
+              "filename": "unidad-2-diseno-de-la-estrategia-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-1-3",
+              "title": "Analisis de viabilidad e implementacion",
+              "filename": "unidad-3-analisis-de-viabilidad-e-implementacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-1-4",
+              "title": "Estrategia integrada y hoja de ruta",
+              "filename": "unidad-4-estrategia-integrada-y-hoja-de-ruta.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-12-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-12-2-1",
+              "title": "Fundamentos de lean startup y desarrollo de clientes",
+              "filename": "unidad-1-fundamentos-de-lean-startup-y-desarrollo-de-clientes.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-2-2",
+              "title": "Diseno y ejecucion de experimentos de validacion",
+              "filename": "unidad-2-diseno-y-ejecucion-de-experimentos-de-validacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-2-3",
+              "title": "Analisis de la evidencia aprender pivotar o perseverar",
+              "filename": "unidad-3-analisis-de-la-evidencia-aprender-pivotar-o-perseverar.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-2-4",
+              "title": "Modelo de negocio validado y narrativa de traccion",
+              "filename": "unidad-4-modelo-de-negocio-validado-y-narrativa-de-traccion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-12-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-12-3-1",
+              "title": "Fundamentos del modelo de negocio",
+              "filename": "unidad-1-fundamentos-del-modelo-de-negocio.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-3-2",
+              "title": "Diseno de los bloques del modelo",
+              "filename": "unidad-2-diseno-de-los-bloques-del-modelo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-3-3",
+              "title": "Analisis de viabilidad e innovacion",
+              "filename": "unidad-3-analisis-de-viabilidad-e-innovacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-3-4",
+              "title": "Innovacion integrada y defensa del modelo",
+              "filename": "unidad-4-innovacion-integrada-y-defensa-del-modelo.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-12-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-12-4-1",
+              "title": "Fundamentos del pitch deck y la narrativa para inversores",
+              "filename": "unidad-1-fundamentos-del-pitch-deck-y-la-narrativa-para-inversores.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-4-2",
+              "title": "Construccion del mensaje problema mercado y propuesta de valor",
+              "filename": "unidad-2-construccion-del-mensaje-problema-mercado-y-propuesta-de-valor.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-4-3",
+              "title": "Analisis y refinamiento del pitch",
+              "filename": "unidad-3-analisis-y-refinamiento-del-pitch.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-12-4-4",
+              "title": "Pitch integral presentacion y defensa ante inversores",
+              "filename": "unidad-4-pitch-integral-presentacion-y-defensa-ante-inversores.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-13",
+      "title": "13. Diplomado en Gestión de Salud Digital",
+      "description": "Diplomado Avanzado 13",
+      "color": "linear-gradient(135deg,#6366F1 0%,#8B5CF6 100%)",
+      "icon": "🔬",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-13-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-13-1-1",
+              "title": "Fundamentos de la tecnologia fitness y el entrenamiento digital",
+              "filename": "unidad-1-fundamentos-de-la-tecnologia-fitness-y-el-entrenamiento-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-1-2",
+              "title": "Construccion del entrenamiento digital metricas planes y personalizacion",
+              "filename": "unidad-2-construccion-del-entrenamiento-digital-metricas-planes-y-personalizacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-1-3",
+              "title": "Analisis critico evidencia privacidad y uso saludable de la tecnologia",
+              "filename": "unidad-3-analisis-critico-evidencia-privacidad-y-uso-saludable-de-la-tecnologia.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-1-4",
+              "title": "Plan integrado de entrenamiento y bienestar digital",
+              "filename": "unidad-4-plan-integrado-de-entrenamiento-y-bienestar-digital.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-13-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-13-2-1",
+              "title": "Fundamentos de la salud preventiva y las tecnologias del bienestar",
+              "filename": "unidad-1-fundamentos-de-la-salud-preventiva-y-las-tecnologias-del-bienestar.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-2-2",
+              "title": "Diseno de estrategias de prevencion apoyadas en tecnologia",
+              "filename": "unidad-2-diseno-de-estrategias-de-prevencion-apoyadas-en-tecnologia.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-2-3",
+              "title": "Analisis critico evidencia privacidad y equidad en salud digital",
+              "filename": "unidad-3-analisis-critico-evidencia-privacidad-y-equidad-en-salud-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-2-4",
+              "title": "Propuesta integrada de salud preventiva digital",
+              "filename": "unidad-4-propuesta-integrada-de-salud-preventiva-digital.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-13-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-13-3-1",
+              "title": "Fundamentos de las apps de salud mental y la terapeutica digital",
+              "filename": "unidad-1-fundamentos-de-las-apps-de-salud-mental-y-la-terapeutica-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-3-2",
+              "title": "Construccion del perfil evaluar apps por criterios",
+              "filename": "unidad-2-construccion-del-perfil-evaluar-apps-por-criterios.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-3-3",
+              "title": "Analisis de viabilidad seguridad etica y escenarios",
+              "filename": "unidad-3-analisis-de-viabilidad-seguridad-etica-y-escenarios.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-3-4",
+              "title": "Guia integrada curaduria recomendacion y uso responsable",
+              "filename": "unidad-4-guia-integrada-curaduria-recomendacion-y-uso-responsable.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-13-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-13-4-1",
+              "title": "Fundamentos del mindfulness y la meditacion en la era digital",
+              "filename": "unidad-1-fundamentos-del-mindfulness-y-la-meditacion-en-la-era-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-4-2",
+              "title": "Construccion de una practica apoyada en apps",
+              "filename": "unidad-2-construccion-de-una-practica-apoyada-en-apps.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-4-3",
+              "title": "Analisis critico de apps de bienestar",
+              "filename": "unidad-3-analisis-critico-de-apps-de-bienestar.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-13-4-4",
+              "title": "Integracion plan de bienestar digital",
+              "filename": "unidad-4-integracion-plan-de-bienestar-digital.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-14",
+      "title": "14. Diplomado en Aprendizaje Autónomo",
+      "description": "Diplomado Avanzado 14",
+      "color": "linear-gradient(135deg,#14B8A6 0%,#0EA5E9 100%)",
+      "icon": "🏆",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-14-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-14-1-1",
+              "title": "Pensar en sistemas fundamentos del pensamiento sistemico",
+              "filename": "unidad-1-pensar-en-sistemas-fundamentos-del-pensamiento-sistemico.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-1-2",
+              "title": "Complejidad redes y aprendizaje colectivo",
+              "filename": "unidad-2-complejidad-redes-y-aprendizaje-colectivo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-1-3",
+              "title": "Complejidad interna metacognicion emocion y aprendizaje",
+              "filename": "unidad-3-complejidad-interna-metacognicion-emocion-y-aprendizaje.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-1-4",
+              "title": "Diseno personal del aprendizaje autonomo en sistemas complejos",
+              "filename": "unidad-4-diseno-personal-del-aprendizaje-autonomo-en-sistemas-complejos.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-14-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-14-2-1",
+              "title": "Fundamentos del aprendizaje colaborativo en red",
+              "filename": "unidad-1-fundamentos-del-aprendizaje-colaborativo-en-red.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-2-2",
+              "title": "Diseno de experiencias colaborativas estructura y roles",
+              "filename": "unidad-2-diseno-de-experiencias-colaborativas-estructura-y-roles.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-2-3",
+              "title": "Comunidades de aprendizaje en red dinamica y sostenimiento",
+              "filename": "unidad-3-comunidades-de-aprendizaje-en-red-dinamica-y-sostenimiento.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-2-4",
+              "title": "Integracion diseno presentacion y defensa de la propuesta",
+              "filename": "unidad-4-integracion-diseno-presentacion-y-defensa-de-la-propuesta.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-14-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-14-3-1",
+              "title": "El cerebro que aprende plasticidad neuronas y memoria",
+              "filename": "unidad-1-el-cerebro-que-aprende-plasticidad-neuronas-y-memoria.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-3-2",
+              "title": "Estrategias de aprendizaje con respaldo neurocientifico",
+              "filename": "unidad-2-estrategias-de-aprendizaje-con-respaldo-neurocientifico.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-3-3",
+              "title": "Cerebro cuerpo y entorno las condiciones que hacen posible aprender",
+              "filename": "unidad-3-cerebro-cuerpo-y-entorno-las-condiciones-que-hacen-posible-aprender.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-3-4",
+              "title": "Disenar para aprender del conocimiento al plan de accion personal",
+              "filename": "unidad-4-disenar-para-aprender-del-conocimiento-al-plan-de-accion-personal.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-14-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-14-4-1",
+              "title": "Emociones y tecnologia un mapa para entender lo que sientes",
+              "filename": "unidad-1-emociones-y-tecnologia-un-mapa-para-entender-lo-que-sientes.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-4-2",
+              "title": "Patrones digitales y bienestar como la tecnologia moldea tus emociones",
+              "filename": "unidad-2-patrones-digitales-y-bienestar-como-la-tecnologia-moldea-tus-emociones.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-4-3",
+              "title": "Regulacion emocional en la era digital estrategias para actuar diferente",
+              "filename": "unidad-3-regulacion-emocional-en-la-era-digital-estrategias-para-actuar-diferente.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-14-4-4",
+              "title": "Un plan propio integrar la inteligencia emocional en tu vida digital",
+              "filename": "unidad-4-un-plan-propio-integrar-la-inteligencia-emocional-en-tu-vida-digital.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-15",
+      "title": "15. Diplomado en IA para Negocios",
+      "description": "Diplomado Avanzado 15",
+      "color": "linear-gradient(135deg,#F97316 0%,#EF4444 100%)",
+      "icon": "📊",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-15-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-15-1-1",
+              "title": "Fundamentos de rag arquitectura embeddings y primera consulta",
+              "filename": "unidad-1-fundamentos-de-rag-arquitectura-embeddings-y-primera-consulta.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-1-2",
+              "title": "Construccion del pipeline completo recuperacion contexto y fuentes multiples",
+              "filename": "unidad-2-construccion-del-pipeline-completo-recuperacion-contexto-y-fuentes-multiples.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-1-3",
+              "title": "Evaluacion y optimizacion del sistema rag medir depurar y mejorar",
+              "filename": "unidad-3-evaluacion-y-optimizacion-del-sistema-rag-medir-depurar-y-mejorar.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-1-4",
+              "title": "Sistema rag completo integracion despliegue y presentacion ejecutiva",
+              "filename": "unidad-4-sistema-rag-completo-integracion-despliegue-y-presentacion-ejecutiva.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-15-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-15-2-1",
+              "title": "Primeros pasos con power bi datos conexiones y visualizaciones basicas",
+              "filename": "unidad-1-primeros-pasos-con-power-bi-datos-conexiones-y-visualizaciones-basicas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-2-2",
+              "title": "Modelado de datos y analisis con dax",
+              "filename": "unidad-2-modelado-de-datos-y-analisis-con-dax.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-2-3",
+              "title": "Optimizacion narrativa visual y buenas practicas de diseno",
+              "filename": "unidad-3-optimizacion-narrativa-visual-y-buenas-practicas-de-diseno.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-2-4",
+              "title": "Power bi service colaboracion y entrega del dashboard estrategico",
+              "filename": "unidad-4-power-bi-service-colaboracion-y-entrega-del-dashboard-estrategico.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-15-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-15-3-1",
+              "title": "Fundamentos de automatizacion con python",
+              "filename": "unidad-1-fundamentos-de-automatizacion-con-python.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-3-2",
+              "title": "Automatizacion de procesos de negocio con python",
+              "filename": "unidad-2-automatizacion-de-procesos-de-negocio-con-python.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-3-3",
+              "title": "Rpa automatizacion robotica de procesos",
+              "filename": "unidad-3-rpa-automatizacion-robotica-de-procesos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-3-4",
+              "title": "Solucion integrada de automatizacion",
+              "filename": "unidad-4-solucion-integrada-de-automatizacion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-15-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-15-4-1",
+              "title": "Fundamentos de agentes de ia y arquitectura basica",
+              "filename": "unidad-1-fundamentos-de-agentes-de-ia-y-arquitectura-basica.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-4-2",
+              "title": "Construccion de agentes con memoria herramientas y flujos",
+              "filename": "unidad-2-construccion-de-agentes-con-memoria-herramientas-y-flujos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-4-3",
+              "title": "Evaluacion seguridad y fiabilidad de agentes en produccion",
+              "filename": "unidad-3-evaluacion-seguridad-y-fiabilidad-de-agentes-en-produccion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-15-4-4",
+              "title": "Despliegue integracion empresarial y presentacion del agente",
+              "filename": "unidad-4-despliegue-integracion-empresarial-y-presentacion-del-agente.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-16",
+      "title": "16. Diplomado en Herramientas EdTech",
+      "description": "Diplomado Avanzado 16",
+      "color": "linear-gradient(135deg,#7C3AED 0%,#5B21B6 100%)",
+      "icon": "🎯",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-16-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-16-1-1",
+              "title": "Fundamentos del bienestar la salud mental y la inteligencia emocional en el aula",
+              "filename": "unidad-1-fundamentos-del-bienestar-la-salud-mental-y-la-inteligencia-emocional-en-el-aula.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-1-2",
+              "title": "Estrategias y herramientas digitales para promover el bienestar emocional",
+              "filename": "unidad-2-estrategias-y-herramientas-digitales-para-promover-el-bienestar-emocional.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-1-3",
+              "title": "Evaluacion critica pertinencia etica y limites de las practicas digitales de bienestar",
+              "filename": "unidad-3-evaluacion-critica-pertinencia-etica-y-limites-de-las-practicas-digitales-de-bienestar.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-1-4",
+              "title": "Diseno de un plan integral de bienestar y desarrollo emocional",
+              "filename": "unidad-4-diseno-de-un-plan-integral-de-bienestar-y-desarrollo-emocional.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-16-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-16-2-1",
+              "title": "Fundamentos de la narrativa educativa",
+              "filename": "unidad-1-fundamentos-de-la-narrativa-educativa.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-2-2",
+              "title": "Construccion de la experiencia narrativa",
+              "filename": "unidad-2-construccion-de-la-experiencia-narrativa.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-2-3",
+              "title": "Analisis y mejora de la narrativa",
+              "filename": "unidad-3-analisis-y-mejora-de-la-narrativa.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-2-4",
+              "title": "Diseno integrado de narrativa educativa",
+              "filename": "unidad-4-diseno-integrado-de-narrativa-educativa.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-16-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-16-3-1",
+              "title": "Fundamentos del diseno creativo de recursos educativos",
+              "filename": "unidad-1-fundamentos-del-diseno-creativo-de-recursos-educativos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-3-2",
+              "title": "Recursos visuales para el aula",
+              "filename": "unidad-2-recursos-visuales-para-el-aula.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-3-3",
+              "title": "Interactividad y gamificacion con genially",
+              "filename": "unidad-3-interactividad-y-gamificacion-con-genially.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-3-4",
+              "title": "Integracion el kit creativo del docente",
+              "filename": "unidad-4-integracion-el-kit-creativo-del-docente.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-16-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-16-4-1",
+              "title": "Fundamentos de las comunidades de aprendizaje en entornos digitales",
+              "filename": "unidad-1-fundamentos-de-las-comunidades-de-aprendizaje-en-entornos-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-4-2",
+              "title": "Construccion y puesta en marcha de la comunidad",
+              "filename": "unidad-2-construccion-y-puesta-en-marcha-de-la-comunidad.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-4-3",
+              "title": "Analisis y mejora de la dinamica comunitaria",
+              "filename": "unidad-3-analisis-y-mejora-de-la-dinamica-comunitaria.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-16-4-4",
+              "title": "Dinamizacion sostenible y entrega de la comunidad",
+              "filename": "unidad-4-dinamizacion-sostenible-y-entrega-de-la-comunidad.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-17",
+      "title": "17. Diplomado en Innovación Educativa",
+      "description": "Diplomado Avanzado 17",
+      "color": "linear-gradient(135deg,#0EA5E9 0%,#06B6D4 100%)",
+      "icon": "🧠",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-17-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-17-1-1",
+              "title": "Fundamentos del aula invertida y el aprendizaje hibrido",
+              "filename": "unidad-1-fundamentos-del-aula-invertida-y-el-aprendizaje-hibrido.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-1-2",
+              "title": "Diseno de experiencias de aula invertida",
+              "filename": "unidad-2-diseno-de-experiencias-de-aula-invertida.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-1-3",
+              "title": "Analisis y mejora de experiencias de aula invertida",
+              "filename": "unidad-3-analisis-y-mejora-de-experiencias-de-aula-invertida.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-1-4",
+              "title": "Diseno integrado de la unidad didactica invertida",
+              "filename": "unidad-4-diseno-integrado-de-la-unidad-didactica-invertida.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-17-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-17-2-1",
+              "title": "El cerebro que aprende fundamentos de neuroeducacion",
+              "filename": "unidad-1-el-cerebro-que-aprende-fundamentos-de-neuroeducacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-2-2",
+              "title": "Memoria recuperacion y diseno de experiencias de aprendizaje",
+              "filename": "unidad-2-memoria-recuperacion-y-diseno-de-experiencias-de-aprendizaje.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-2-3",
+              "title": "Aprendizaje socioemocional motivacion y entornos tecnologicos",
+              "filename": "unidad-3-aprendizaje-socioemocional-motivacion-y-entornos-tecnologicos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-2-4",
+              "title": "Del conocimiento a la accion diseno e implementacion de intervenciones pedagogicas basadas en neurociencia",
+              "filename": "unidad-4-del-conocimiento-a-la-accion-diseno-e-implementacion-de-intervenciones-pedagogicas-basadas-en-neurociencia.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-17-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-17-3-1",
+              "title": "Fundamentos de la educacion inclusiva y el diseno universal",
+              "filename": "unidad-1-fundamentos-de-la-educacion-inclusiva-y-el-diseno-universal.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-3-2",
+              "title": "Tecnologias accesibles y herramientas de apoyo en el aula",
+              "filename": "unidad-2-tecnologias-accesibles-y-herramientas-de-apoyo-en-el-aula.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-3-3",
+              "title": "Evaluacion inclusiva y auditoria de accesibilidad",
+              "filename": "unidad-3-evaluacion-inclusiva-y-auditoria-de-accesibilidad.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-3-4",
+              "title": "Plan de accesibilidad educativa integracion y accion",
+              "filename": "unidad-4-plan-de-accesibilidad-educativa-integracion-y-accion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-17-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-17-4-1",
+              "title": "Fundamentos del aprendizaje inmersivo con tecnologias xr",
+              "filename": "unidad-1-fundamentos-del-aprendizaje-inmersivo-con-tecnologias-xr.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-4-2",
+              "title": "Construccion de experiencias xr educativas",
+              "filename": "unidad-2-construccion-de-experiencias-xr-educativas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-4-3",
+              "title": "Evaluacion y mejora de experiencias xr",
+              "filename": "unidad-3-evaluacion-y-mejora-de-experiencias-xr.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-17-4-4",
+              "title": "Integracion presentacion y futuro del aprendizaje inmersivo",
+              "filename": "unidad-4-integracion-presentacion-y-futuro-del-aprendizaje-inmersivo.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-18",
+      "title": "18. Diplomado en Innovación Personal",
+      "description": "Diplomado Avanzado 18",
+      "color": "linear-gradient(135deg,#EC4899 0%,#8B5CF6 100%)",
+      "icon": "⚡",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-18-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-18-1-1",
+              "title": "Fundamentos del pensamiento critico",
+              "filename": "unidad-1-fundamentos-del-pensamiento-critico.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-1-2",
+              "title": "Evaluacion de informacion y fuentes en entornos digitales",
+              "filename": "unidad-2-evaluacion-de-informacion-y-fuentes-en-entornos-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-1-3",
+              "title": "Analisis de argumentos y toma de decisiones fundamentadas",
+              "filename": "unidad-3-analisis-de-argumentos-y-toma-de-decisiones-fundamentadas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-1-4",
+              "title": "Protocolo personal de pensamiento critico",
+              "filename": "unidad-4-protocolo-personal-de-pensamiento-critico.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-18-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-18-2-1",
+              "title": "Creatividad como competencia fundamentos y perfil creativo",
+              "filename": "unidad-1-creatividad-como-competencia-fundamentos-y-perfil-creativo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-2-2",
+              "title": "Metodologias de ideacion sistematica",
+              "filename": "unidad-2-metodologias-de-ideacion-sistematica.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-2-3",
+              "title": "Evaluacion de ideas e innovacion en contexto",
+              "filename": "unidad-3-evaluacion-de-ideas-e-innovacion-en-contexto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-2-4",
+              "title": "Del idea al plan diseno de un proyecto de innovacion personal",
+              "filename": "unidad-4-del-idea-al-plan-diseno-de-un-proyecto-de-innovacion-personal.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-18-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-18-3-1",
+              "title": "Como aprendemos y por que la ia cambia todo",
+              "filename": "unidad-1-como-aprendemos-y-por-que-la-ia-cambia-todo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-3-2",
+              "title": "Estrategias de aprendizaje potenciadas por ia",
+              "filename": "unidad-2-estrategias-de-aprendizaje-potenciadas-por-ia.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-3-3",
+              "title": "Diseno de prompts para aprender mejor",
+              "filename": "unidad-3-diseno-de-prompts-para-aprender-mejor.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-3-4",
+              "title": "Tu sistema personal de aprendizaje con ia",
+              "filename": "unidad-4-tu-sistema-personal-de-aprendizaje-con-ia.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-18-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-18-4-1",
+              "title": "Fundamentos de la gestion del tiempo y productividad digital",
+              "filename": "unidad-1-fundamentos-de-la-gestion-del-tiempo-y-productividad-digital.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-4-2",
+              "title": "Sistemas de organizacion y gestion de proyectos digitales",
+              "filename": "unidad-2-sistemas-de-organizacion-y-gestion-de-proyectos-digitales.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-4-3",
+              "title": "Gestion de la energia el foco y el tiempo bloqueado",
+              "filename": "unidad-3-gestion-de-la-energia-el-foco-y-el-tiempo-bloqueado.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-18-4-4",
+              "title": "Habitos sostenibles y sistema personal integrado",
+              "filename": "unidad-4-habitos-sostenibles-y-sistema-personal-integrado.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-19",
+      "title": "19. Diplomado en Innovación Sostenible",
+      "description": "Diplomado Avanzado 19",
+      "color": "linear-gradient(135deg,#10B981 0%,#06B6D4 100%)",
+      "icon": "🌟",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-19-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-19-1-1",
+              "title": "Fundamentos de la agricultura regenerativa y los sistemas foodtech",
+              "filename": "unidad-1-fundamentos-de-la-agricultura-regenerativa-y-los-sistemas-foodtech.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-1-2",
+              "title": "Practicas regenerativas y soluciones tecnologicas",
+              "filename": "unidad-2-practicas-regenerativas-y-soluciones-tecnologicas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-1-3",
+              "title": "Analisis de viabilidad impacto y riesgos",
+              "filename": "unidad-3-analisis-de-viabilidad-impacto-y-riesgos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-1-4",
+              "title": "Diseno de una propuesta integrada de transicion",
+              "filename": "unidad-4-diseno-de-una-propuesta-integrada-de-transicion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-19-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-19-2-1",
+              "title": "Fundamentos del turismo regenerativo",
+              "filename": "unidad-1-fundamentos-del-turismo-regenerativo.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-2-2",
+              "title": "Diseno de destinos y experiencias regenerativas",
+              "filename": "unidad-2-diseno-de-destinos-y-experiencias-regenerativas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-2-3",
+              "title": "Analisis de impacto y viabilidad",
+              "filename": "unidad-3-analisis-de-impacto-y-viabilidad.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-2-4",
+              "title": "Plan regenerativo integrado y narrativa para actores clave",
+              "filename": "unidad-4-plan-regenerativo-integrado-y-narrativa-para-actores-clave.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-19-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-19-3-1",
+              "title": "Fundamentos de ciudades inteligentes e iot verde",
+              "filename": "unidad-1-fundamentos-de-ciudades-inteligentes-e-iot-verde.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-3-2",
+              "title": "Aplicaciones de iot verde en los sistemas urbanos",
+              "filename": "unidad-2-aplicaciones-de-iot-verde-en-los-sistemas-urbanos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-3-3",
+              "title": "Analisis de viabilidad datos e impacto",
+              "filename": "unidad-3-analisis-de-viabilidad-datos-e-impacto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-3-4",
+              "title": "Diseno integrado y narrativa para tomadores de decision",
+              "filename": "unidad-4-diseno-integrado-y-narrativa-para-tomadores-de-decision.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-19-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-19-4-1",
+              "title": "Fundamentos de la gestion del agua y la economia azul",
+              "filename": "unidad-1-fundamentos-de-la-gestion-del-agua-y-la-economia-azul.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-4-2",
+              "title": "Uso eficiente del agua y aprovechamiento de los recursos acuaticos",
+              "filename": "unidad-2-uso-eficiente-del-agua-y-aprovechamiento-de-los-recursos-acuaticos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-4-3",
+              "title": "Analisis de viabilidad criterios indicadores y riesgos",
+              "filename": "unidad-3-analisis-de-viabilidad-criterios-indicadores-y-riesgos.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-19-4-4",
+              "title": "Plan integrado financiamiento y narrativa para la decision",
+              "filename": "unidad-4-plan-integrado-financiamiento-y-narrativa-para-la-decision.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-20",
+      "title": "20. Diplomado en Inteligencia de Negocios",
+      "description": "Diplomado Avanzado 20",
+      "color": "linear-gradient(135deg,#F59E0B 0%,#EF4444 100%)",
+      "icon": "🎓",
+      "createdAt": "2026-01-15",
+      "diplomados": [
+        {
+          "id": "d-20-1",
+          "title": "Curso 1",
+          "description": "Curso 1",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-20-1-1",
+              "title": "Fundamentos de la venta b2b",
+              "filename": "unidad-1-fundamentos-de-la-venta-b2b.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-1-2",
+              "title": "Construccion del proceso de venta y la propuesta de valor",
+              "filename": "unidad-2-construccion-del-proceso-de-venta-y-la-propuesta-de-valor.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-1-3",
+              "title": "Gestion y analisis de cuentas estrategicas",
+              "filename": "unidad-3-gestion-y-analisis-de-cuentas-estrategicas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-1-4",
+              "title": "Plan integral de gestion de cuenta estrategica",
+              "filename": "unidad-4-plan-integral-de-gestion-de-cuenta-estrategica.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-20-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-20-2-1",
+              "title": "Fundamentos de la negociacion",
+              "filename": "unidad-1-fundamentos-de-la-negociacion.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-2-2",
+              "title": "Conduccion de la negociacion comunicacion valor y propuestas",
+              "filename": "unidad-2-conduccion-de-la-negociacion-comunicacion-valor-y-propuestas.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-2-3",
+              "title": "Objeciones tacticas y escenarios dificiles",
+              "filename": "unidad-3-objeciones-tacticas-y-escenarios-dificiles.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-2-4",
+              "title": "Cierre del acuerdo y estrategia integral de negociacion",
+              "filename": "unidad-4-cierre-del-acuerdo-y-estrategia-integral-de-negociacion.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-20-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-20-3-1",
+              "title": "Fundamentos del liderazgo remoto",
+              "filename": "unidad-1-fundamentos-del-liderazgo-remoto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-3-2",
+              "title": "Coordinacion y productividad del equipo distribuido",
+              "filename": "unidad-2-coordinacion-y-productividad-del-equipo-distribuido.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-3-3",
+              "title": "Salud desempeno y dinamica del equipo remoto",
+              "filename": "unidad-3-salud-desempeno-y-dinamica-del-equipo-remoto.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-3-4",
+              "title": "Diseno de un modelo de liderazgo remoto integrado",
+              "filename": "unidad-4-diseno-de-un-modelo-de-liderazgo-remoto-integrado.zip",
+              "createdAt": "",
+              "pending": true
+            }
+          ]
+        },
+        {
+          "id": "d-20-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "unidades": [
+            {
+              "id": "u-20-4-1",
+              "title": "Fundamentos de la analitica de negocios con ia",
+              "filename": "unidad-1-fundamentos-de-la-analitica-de-negocios-con-ia.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-4-2",
+              "title": "Analisis y visualizacion de datos para decidir",
+              "filename": "unidad-2-analisis-y-visualizacion-de-datos-para-decidir.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-4-3",
+              "title": "De los datos a los insights con ia",
+              "filename": "unidad-3-de-los-datos-a-los-insights-con-ia.zip",
+              "createdAt": "",
+              "pending": true
+            },
+            {
+              "id": "u-20-4-4",
+              "title": "Del analisis a la decision estrategica",
+              "filename": "unidad-4-del-analisis-a-la-decision-estrategica.zip",
+              "createdAt": "",
+              "pending": true
+            }
           ]
         }
       ]

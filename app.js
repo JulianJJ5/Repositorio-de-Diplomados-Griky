@@ -1,396 +1,406 @@
 // ============================================================
 //  GRIKY — REPOSITORIO DE DIPLOMADOS
-//  app.js — Catalog logic: load, navigate, add, search
+//  Catálogo de solo lectura: navegación de 3 niveles + búsqueda.
+//  Los ZIP viven en SharePoint; catalog.json solo describe dónde.
 // ============================================================
 
-// ---- State ----
+'use strict';
+
+// ---- Configuración ----
+const CATALOG_URL = 'catalog.json';
+const SEARCH_DEBOUNCE_MS = 150;
+
+const FALLBACK_COLORS = [
+  'linear-gradient(135deg,#7C3AED 0%,#5B21B6 100%)',
+  'linear-gradient(135deg,#0EA5E9 0%,#06B6D4 100%)',
+  'linear-gradient(135deg,#EC4899 0%,#8B5CF6 100%)',
+  'linear-gradient(135deg,#10B981 0%,#06B6D4 100%)',
+  'linear-gradient(135deg,#F59E0B 0%,#EF4444 100%)',
+  'linear-gradient(135deg,#6366F1 0%,#8B5CF6 100%)',
+  'linear-gradient(135deg,#14B8A6 0%,#0EA5E9 100%)',
+  'linear-gradient(135deg,#F97316 0%,#EF4444 100%)',
+];
+const FALLBACK_ICONS = ['🎓', '📚', '💡', '🔬', '🏆', '📊', '🎯', '🧠', '⚡', '🌟'];
+
+// ---- Estado ----
 const state = {
-  catalog: [],        // all diplomados avanzados
-  currentLevel: 1,   // 1 = DA list, 2 = Diplomados list, 3 = Unidades list
-  selectedDA: null,  // selected Diplomado Avanzado object
-  selectedDip: null, // selected Diplomado object
-  searchQuery: '',
-  colors: [
-    'linear-gradient(135deg,#7C3AED 0%,#5B21B6 100%)',
-    'linear-gradient(135deg,#0EA5E9 0%,#06B6D4 100%)',
-    'linear-gradient(135deg,#EC4899 0%,#8B5CF6 100%)',
-    'linear-gradient(135deg,#10B981 0%,#06B6D4 100%)',
-    'linear-gradient(135deg,#F59E0B 0%,#EF4444 100%)',
-    'linear-gradient(135deg,#6366F1 0%,#8B5CF6 100%)',
-    'linear-gradient(135deg,#14B8A6 0%,#0EA5E9 100%)',
-    'linear-gradient(135deg,#F97316 0%,#EF4444 100%)',
-  ],
-  icons: ['🎓','📚','💡','🔬','🏆','📊','🎯','🧠','⚡','🌟'],
+  base: '',        // prefijo común de las URLs de SharePoint
+  catalog: [],     // diplomados avanzados
+  daId: null,      // DA seleccionado (null = nivel 1)
+  dipId: null,     // curso seleccionado (null = nivel 2)
+  query: '',       // búsqueda normalizada
 };
 
-// ---- DOM Refs ----
-const viewEl       = document.getElementById('view');
-const breadcrumbEl = document.getElementById('breadcrumb');
-const titleEl      = document.getElementById('page-title');
-const subtitleEl   = document.getElementById('page-subtitle');
-const addBtnEl     = document.getElementById('btn-add');
-const searchEl     = document.getElementById('search-input');
-const statsEl      = document.getElementById('stat-count');
-const modalOverlay = document.getElementById('modal-overlay');
-const modalForm    = document.getElementById('modal-form');
-const modalTitle   = document.getElementById('modal-title');
-const toastCont    = document.getElementById('toast-container');
+// ---- Refs del DOM ----
+const el = {
+  view:       document.getElementById('view'),
+  breadcrumb: document.getElementById('breadcrumb'),
+  title:      document.getElementById('page-title'),
+  subtitle:   document.getElementById('page-subtitle'),
+  back:       document.getElementById('back-btn'),
+  search:     document.getElementById('search-input'),
+  stat:       document.getElementById('stat-count'),
+  statLabel:  document.getElementById('stat-label'),
+  toasts:     document.getElementById('toast-container'),
+};
 
-// ---- Init ----
-async function init() {
-  try {
-    const res = await fetch('catalog.json');
-    if (!res.ok) throw new Error('No se pudo cargar catalog.json');
-    const data = await res.json();
-    state.catalog = data.catalog || [];
-  } catch (e) {
-    console.warn('catalog.json no encontrado, iniciando vacío.', e);
-    state.catalog = [];
-  }
-  renderLevel1();
-}
+// ============================================================
+//  Utilidades
+// ============================================================
 
-// ---- RENDER LEVEL 1: Diplomados Avanzados ----
-function renderLevel1() {
-  state.currentLevel = 1;
-  state.selectedDA   = null;
-  state.selectedDip  = null;
-
-  updateBreadcrumb([{ label: 'Inicio', icon: '🏠', active: true }]);
-  titleEl.innerHTML  = 'Repositorio de <span class="highlight">Diplomados</span>';
-  subtitleEl.textContent = 'Selecciona un Diplomado Avanzado para explorar su contenido';
-  addBtnEl.style.display = 'flex';
-  addBtnEl.textContent = '+ Nuevo Diplomado Avanzado';
-  updateStats();
-
-  const filtered = filterItems(state.catalog, 'title');
-
-  let html = '<div class="cards-grid view">';
-
-  if (filtered.length === 0 && state.searchQuery === '') {
-    html = `<div class="empty-state view">
-      <div class="empty-state-icon">📂</div>
-      <h3>Sin diplomados aún</h3>
-      <p>Usa el botón "Nuevo Diplomado Avanzado" para comenzar tu catálogo.</p>
-    </div>`;
-  } else {
-    if (filtered.length === 0) {
-      html += `<div class="empty-state" style="grid-column:1/-1">
-        <div class="empty-state-icon">🔍</div>
-        <h3>Sin resultados</h3>
-        <p>No se encontraron diplomados con "${state.searchQuery}".</p>
-      </div>`;
-    } else {
-      filtered.forEach((da, i) => {
-        const grad = da.color || state.colors[i % state.colors.length];
-        const icon = da.icon || state.icons[i % state.icons.length];
-        const dipCount = (da.diplomados || []).length;
-        html += `
-          <div class="card-da" onclick="selectDA('${da.id}')" id="card-da-${da.id}">
-            <div class="card-da-banner" style="background:${grad}"></div>
-            <div class="card-da-body">
-              <div class="card-da-icon" style="background:${grad}30;border:1px solid ${grad}40">${icon}</div>
-              <div class="card-da-info">
-                <div class="card-da-title">${escHtml(da.title)}</div>
-                <div class="card-da-desc">${escHtml(da.description || 'Sin descripción')}</div>
-              </div>
-              <div class="card-da-footer">
-                <div class="card-da-meta">
-                  📅 ${formatDate(da.createdAt)}
-                </div>
-                <div class="card-da-count">${dipCount} diplomado${dipCount !== 1 ? 's' : ''}</div>
-                <span class="card-da-arrow">→</span>
-              </div>
-            </div>
-          </div>`;
-      });
-    }
-    // Add card
-    html += `
-      <button class="card-add" onclick="openModal('da')" id="btn-add-card">
-        <div class="card-add-icon">＋</div>
-        <span class="card-add-label">Nuevo Diplomado Avanzado</span>
-      </button>`;
-    html += '</div>';
-  }
-
-  viewEl.innerHTML = html;
-}
-
-// ---- RENDER LEVEL 2: Diplomados ----
-function renderLevel2(da) {
-  state.currentLevel = 2;
-  state.selectedDA   = da;
-  state.selectedDip  = null;
-
-  updateBreadcrumb([
-    { label: 'Inicio', icon: '🏠', onclick: 'renderLevel1()' },
-    { label: da.title, icon: '📁', active: true }
-  ]);
-  titleEl.innerHTML  = escHtml(da.title);
-  subtitleEl.textContent = da.description || 'Selecciona un diplomado para ver sus unidades';
-  addBtnEl.style.display = 'flex';
-  addBtnEl.textContent = '+ Nuevo Diplomado';
-  updateStats();
-
-  const dips = da.diplomados || [];
-  const filtered = filterItems(dips, 'title');
-
-  let html = '<div class="cards-grid view">';
-
-  if (filtered.length === 0 && state.searchQuery === '') {
-    html = `<div class="empty-state view">
-      <div class="empty-state-icon">📂</div>
-      <h3>Sin diplomados en este bloque</h3>
-      <p>Añade el primer diplomado con el botón superior.</p>
-    </div>`;
-  } else {
-    filtered.forEach((dip, i) => {
-      const uCount = (dip.unidades || []).length;
-      html += `
-        <div class="card-dip" onclick="selectDip('${dip.id}')" id="card-dip-${dip.id}">
-          <div class="card-dip-header">
-            <div class="card-dip-num">${i + 1}</div>
-            <div>
-              <div class="card-dip-title">${escHtml(dip.title)}</div>
-              <div class="card-dip-desc">${escHtml(dip.description || '')}</div>
-            </div>
-          </div>
-          <div class="card-dip-stats">
-            <div class="card-dip-stat">📦 <strong>${uCount}</strong> unidad${uCount !== 1 ? 'es' : ''}</div>
-            <div class="card-dip-stat">📅 ${formatDate(dip.createdAt)}</div>
-          </div>
-        </div>`;
-    });
-    html += `
-      <button class="card-add" onclick="openModal('dip')" id="btn-add-dip">
-        <div class="card-add-icon">＋</div>
-        <span class="card-add-label">Nuevo Diplomado</span>
-      </button>`;
-    html += '</div>';
-  }
-
-  viewEl.innerHTML = html;
-}
-
-// ---- RENDER LEVEL 3: Unidades / SCORMs ----
-function renderLevel3(dip) {
-  state.currentLevel = 3;
-  state.selectedDip  = dip;
-
-  const da = state.selectedDA;
-  updateBreadcrumb([
-    { label: 'Inicio',  icon: '🏠', onclick: 'renderLevel1()' },
-    { label: da.title,  icon: '📁', onclick: `selectDA('${da.id}')` },
-    { label: dip.title, icon: '📂', active: true }
-  ]);
-  titleEl.innerHTML  = escHtml(dip.title);
-  subtitleEl.textContent = `${(dip.unidades||[]).length} unidades SCORM disponibles para descarga`;
-  addBtnEl.style.display = 'none'; // No se añaden unidades desde UI, se suben a GitHub
-  updateStats();
-
-  const unidades = dip.unidades || [];
-
-  if (unidades.length === 0) {
-    viewEl.innerHTML = `
-      <div class="empty-state view">
-        <div class="empty-state-icon">📦</div>
-        <h3>Sin unidades registradas</h3>
-        <p>Sube los archivos .zip al repositorio y agrégalos en <code>catalog.json</code>.</p>
-      </div>`;
-    return;
-  }
-
-  let html = '<div class="unidades-list view">';
-  unidades.forEach((u, i) => {
-    html += `
-      <div class="unidad-card" id="unidad-${u.id}">
-        <div class="unidad-icon">📦</div>
-        <div class="unidad-info">
-          <div class="unidad-title">${escHtml(u.title)}</div>
-          <div class="unidad-filename">${escHtml(u.filename)}</div>
-        </div>
-        <div class="unidad-meta">
-          <span class="unidad-date">📅 ${formatDate(u.createdAt)}</span>
-          <a class="btn btn-download" href="${escHtml(u.path)}" download="${escHtml(u.filename)}" onclick="showToast('Descargando ${escHtml(u.filename)}…','success')">
-            ⬇ Descargar
-          </a>
-        </div>
-      </div>`;
-  });
-  html += '</div>';
-  viewEl.innerHTML = html;
-}
-
-// ---- Navigation ----
-function selectDA(id) {
-  const da = state.catalog.find(d => d.id === id);
-  if (da) renderLevel2(da);
-}
-
-function selectDip(id) {
-  const da = state.selectedDA;
-  if (!da) return;
-  const dip = (da.diplomados || []).find(d => d.id === id);
-  if (dip) renderLevel3(dip);
-}
-
-// ---- Breadcrumb ----
-function updateBreadcrumb(items) {
-  breadcrumbEl.innerHTML = items.map((item, i) => {
-    const isLast = i === items.length - 1;
-    const clickAttr = item.onclick ? `onclick="${item.onclick}"` : (item.active ? '' : '');
-    return `
-      ${i > 0 ? '<span class="breadcrumb-sep">›</span>' : ''}
-      <span class="breadcrumb-item ${item.active ? 'active' : ''}" ${clickAttr}>
-        ${item.icon} ${escHtml(item.label)}
-      </span>`;
-  }).join('');
-}
-
-// ---- Stats ----
-function updateStats() {
-  const total = state.catalog.reduce((sum, da) => {
-    return sum + (da.diplomados || []).reduce((s2, d) => s2 + (d.unidades || []).length, 0);
-  }, 0);
-  statsEl.textContent = total;
-}
-
-// ---- Search ----
-searchEl.addEventListener('input', (e) => {
-  state.searchQuery = e.target.value.trim().toLowerCase();
-  if      (state.currentLevel === 1) renderLevel1();
-  else if (state.currentLevel === 2) renderLevel2(state.selectedDA);
-});
-
-function filterItems(items, key) {
-  if (!state.searchQuery) return items;
-  return items.filter(it => it[key].toLowerCase().includes(state.searchQuery));
-}
-
-// ---- Add button (header) ----
-addBtnEl.addEventListener('click', () => {
-  if      (state.currentLevel === 1) openModal('da');
-  else if (state.currentLevel === 2) openModal('dip');
-});
-
-// ---- Modal ----
-function openModal(type) {
-  modalForm.dataset.type = type;
-  modalForm.reset();
-
-  if (type === 'da') {
-    modalTitle.textContent = 'Nuevo Diplomado Avanzado';
-    document.getElementById('field-desc').placeholder = 'Ej: Formación en gestión estratégica…';
-    document.getElementById('field-title').placeholder = 'Ej: Diplomado Avanzado 2';
-  } else {
-    modalTitle.textContent = 'Nuevo Diplomado';
-    document.getElementById('field-desc').placeholder = 'Ej: Módulo de fundamentos…';
-    document.getElementById('field-title').placeholder = 'Ej: Diplomado 5';
-  }
-
-  modalOverlay.classList.add('open');
-  setTimeout(() => document.getElementById('field-title').focus(), 100);
-}
-
-function closeModal() {
-  modalOverlay.classList.remove('open');
-}
-
-modalOverlay.addEventListener('click', (e) => {
-  if (e.target === modalOverlay) closeModal();
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
-});
-
-// Submit modal
-modalForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const type  = modalForm.dataset.type;
-  const title = document.getElementById('field-title').value.trim();
-  const desc  = document.getElementById('field-desc').value.trim();
-
-  if (!title) return;
-
-  const now = new Date().toISOString().split('T')[0];
-  const uid = 'id-' + Date.now();
-
-  if (type === 'da') {
-    const colorIdx = state.catalog.length % state.colors.length;
-    const iconIdx  = state.catalog.length % state.icons.length;
-    const newDA = {
-      id: uid,
-      title,
-      description: desc,
-      color: state.colors[colorIdx],
-      icon: state.icons[iconIdx],
-      createdAt: now,
-      diplomados: []
-    };
-    state.catalog.push(newDA);
-    closeModal();
-    showToast(`"${title}" añadido correctamente ✓`, 'success');
-    renderLevel1();
-    showSaveReminder();
-
-  } else if (type === 'dip') {
-    const newDip = {
-      id: uid,
-      title,
-      description: desc,
-      createdAt: now,
-      unidades: []
-    };
-    state.selectedDA.diplomados.push(newDip);
-    closeModal();
-    showToast(`"${title}" añadido correctamente ✓`, 'success');
-    renderLevel2(state.selectedDA);
-    showSaveReminder();
-  }
-});
-
-// ---- Save reminder ----
-function showSaveReminder() {
-  // Build updated JSON for the user to copy
-  const jsonStr = JSON.stringify({ catalog: state.catalog }, null, 2);
-  const blob = new Blob([jsonStr], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = 'catalog.json';
-  a.click();
-  URL.revokeObjectURL(url);
-  showToast('catalog.json descargado — reemplázalo en tu repositorio', 'success');
-}
-
-// ---- Toast ----
-function showToast(msg, type = 'success') {
-  const t = document.createElement('div');
-  t.className = `toast ${type}`;
-  t.innerHTML = `<span>${type === 'success' ? '✅' : '❌'}</span><span>${msg}</span>`;
-  toastCont.appendChild(t);
-  setTimeout(() => t.remove(), 4000);
-}
-
-// ---- Utils ----
-function escHtml(str) {
-  if (!str) return '';
-  return String(str)
+/** Escapa texto para insertarlo en HTML (incluidos atributos con comillas dobles). */
+function esc(value) {
+  if (value == null) return '';
+  return String(value)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
 
-function formatDate(dateStr) {
-  if (!dateStr) return '—';
-  try {
-    const d = new Date(dateStr + 'T00:00:00');
-    return d.toLocaleDateString('es-MX', { year:'numeric', month:'short', day:'numeric' });
-  } catch { return dateStr; }
+/** Quita acentos y pasa a minúsculas, para que "accion" encuentre "Acción". */
+function normalize(str) {
+  return String(str || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
 }
 
-// ---- Start ----
-document.addEventListener('DOMContentLoaded', init);
+const dateFmt = new Intl.DateTimeFormat('es-MX', {
+  year: 'numeric', month: 'short', day: 'numeric',
+});
+
+function formatDate(value) {
+  if (!value) return '—';
+  const d = new Date(`${value}T00:00:00`);
+  return Number.isNaN(d.getTime()) ? value : dateFmt.format(d);
+}
+
+/** Codifica un segmento de ruta preservando los caracteres válidos en URL. */
+function encodeSegment(segment) {
+  return encodeURIComponent(segment).replace(/%2F/gi, '/');
+}
+
+/**
+ * Reconstruye la URL de SharePoint de una unidad.
+ * catalog.json guarda `base` una vez y `folder` por curso en lugar de repetir
+ * la URL completa (~400 caracteres) en cada una de las 300+ unidades.
+ */
+function unitUrl(curso, unidad) {
+  if (unidad.pending || !curso.folder || !unidad.filename) return null;
+  const folder = curso.folder.split('/').map(encodeSegment).join('/');
+  // ?download=1 hace que SharePoint entregue el archivo en vez de previsualizarlo.
+  return `${state.base}${folder}/${encodeSegment(unidad.filename)}?download=1`;
+}
+
+function debounce(fn, ms) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), ms);
+  };
+}
+
+/** Primer color hex de un gradiente, para derivar tintes translúcidos. */
+function accentOf(gradient) {
+  const match = /#([0-9a-f]{6}|[0-9a-f]{3})/i.exec(gradient || '');
+  if (!match) return 'rgba(124,58,237,';
+  let hex = match[1];
+  if (hex.length === 3) hex = hex.split('').map((c) => c + c).join('');
+  const n = parseInt(hex, 16);
+  return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},`;
+}
+
+function plural(n, singular, plural_) {
+  return `${n} ${n === 1 ? singular : plural_}`;
+}
+
+// ============================================================
+//  Consultas sobre el catálogo
+// ============================================================
+
+const findDA = (id) => state.catalog.find((da) => da.id === id) || null;
+
+const findDip = (da, id) =>
+  (da && (da.diplomados || []).find((d) => d.id === id)) || null;
+
+function countUnits(da) {
+  return (da.diplomados || []).reduce((sum, c) => sum + (c.unidades || []).length, 0);
+}
+
+/** Filtra por los campos indicados usando la búsqueda activa. */
+function filterBy(items, fields) {
+  if (!state.query) return items;
+  return items.filter((item) =>
+    fields.some((f) => normalize(item[f]).includes(state.query)));
+}
+
+// ============================================================
+//  Enrutado por hash (permite compartir enlaces y usar "atrás")
+// ============================================================
+
+function readHash() {
+  const [daId, dipId] = decodeURIComponent(location.hash.slice(1)).split('/');
+  return { daId: daId || null, dipId: dipId || null };
+}
+
+function navigate(daId, dipId) {
+  const hash = [daId, dipId].filter(Boolean).map(encodeURIComponent).join('/');
+  // El render lo dispara el evento hashchange.
+  if (location.hash.slice(1) === hash) render();
+  else location.hash = hash;
+}
+
+// ============================================================
+//  Render
+// ============================================================
+
+function render() {
+  const { daId, dipId } = readHash();
+  const da = findDA(daId);
+  const dip = findDip(da, dipId);
+
+  state.daId = da ? da.id : null;
+  state.dipId = dip ? dip.id : null;
+
+  if (dip) renderUnidades(da, dip);
+  else if (da) renderCursos(da);
+  else renderDiplomadosAvanzados();
+
+  el.view.setAttribute('aria-busy', 'false');
+}
+
+// ---- Nivel 1: Diplomados Avanzados ----
+function renderDiplomadosAvanzados() {
+  el.title.innerHTML = 'Repositorio de <span class="highlight">Diplomados</span>';
+  el.subtitle.textContent = 'Selecciona un Diplomado Avanzado para explorar su contenido';
+  el.back.hidden = true;
+  el.search.placeholder = 'Buscar diplomados…';
+  setBreadcrumb([{ label: 'Inicio', icon: '🏠' }]);
+
+  const total = state.catalog.reduce((sum, da) => sum + countUnits(da), 0);
+  setStat(total, 'SCORMs');
+
+  const matches = filterBy(state.catalog, ['title', 'description']);
+  if (!matches.length) {
+    el.view.innerHTML = emptyState('🔍', 'Sin resultados',
+      `Ningún diplomado coincide con "${esc(el.search.value.trim())}".`);
+    return;
+  }
+
+  el.view.innerHTML = `<div class="cards-grid view">${matches.map((da, i) => {
+    const grad = da.color || FALLBACK_COLORS[i % FALLBACK_COLORS.length];
+    const icon = da.icon || FALLBACK_ICONS[i % FALLBACK_ICONS.length];
+    const rgba = accentOf(grad);
+    const units = countUnits(da);
+    return `
+      <button class="card-da" type="button" data-da="${esc(da.id)}">
+        <span class="card-da-banner" style="background:${esc(grad)}"></span>
+        <span class="card-da-body">
+          <span class="card-da-icon" style="background:${rgba}0.18);border-color:${rgba}0.3)">${icon}</span>
+          <span class="card-da-info">
+            <span class="card-da-title">${esc(da.title)}</span>
+            <span class="card-da-desc">${esc(da.description || 'Sin descripción')}</span>
+          </span>
+          <span class="card-da-footer">
+            <span class="card-da-count">${plural((da.diplomados || []).length, 'curso', 'cursos')}</span>
+            <span class="card-da-count">${plural(units, 'unidad', 'unidades')}</span>
+            <span class="card-da-arrow" aria-hidden="true">→</span>
+          </span>
+        </span>
+      </button>`;
+  }).join('')}</div>`;
+}
+
+// ---- Nivel 2: Cursos ----
+function renderCursos(da) {
+  el.title.textContent = da.title;
+  el.subtitle.textContent = da.description || 'Selecciona un curso para ver sus unidades';
+  el.back.hidden = false;
+  el.search.placeholder = 'Buscar cursos…';
+  setBreadcrumb([
+    { label: 'Inicio', icon: '🏠', href: '#' },
+    { label: da.title, icon: '📁' },
+  ]);
+  setStat(countUnits(da), 'SCORMs');
+
+  const cursos = filterBy(da.diplomados || [], ['title', 'description']);
+  if (!cursos.length) {
+    el.view.innerHTML = state.query
+      ? emptyState('🔍', 'Sin resultados', 'Ningún curso coincide con la búsqueda.')
+      : emptyState('📂', 'Sin cursos', 'Este diplomado avanzado aún no tiene cursos.');
+    return;
+  }
+
+  el.view.innerHTML = `<div class="cards-grid view">${cursos.map((dip, i) => {
+    const unidades = dip.unidades || [];
+    const listas = unidades.filter((u) => !u.pending).length;
+    return `
+      <button class="card-dip" type="button" data-dip="${esc(dip.id)}">
+        <span class="card-dip-header">
+          <span class="card-dip-num">${i + 1}</span>
+          <span>
+            <span class="card-dip-title">${esc(dip.title)}</span>
+            <span class="card-dip-desc">${esc(dip.description || '')}</span>
+          </span>
+        </span>
+        <span class="card-dip-stats">
+          <span class="card-dip-stat">📦 <strong>${unidades.length}</strong> unidad${unidades.length === 1 ? '' : 'es'}</span>
+          ${listas < unidades.length
+            ? `<span class="card-dip-stat is-pending">⏳ ${unidades.length - listas} sin ruta</span>`
+            : '<span class="card-dip-stat">✅ disponibles</span>'}
+        </span>
+      </button>`;
+  }).join('')}</div>`;
+}
+
+// ---- Nivel 3: Unidades / SCORMs ----
+function renderUnidades(da, dip) {
+  el.title.textContent = dip.title;
+  el.back.hidden = false;
+  el.search.placeholder = 'Buscar unidades…';
+  setBreadcrumb([
+    { label: 'Inicio', icon: '🏠', href: '#' },
+    { label: da.title, icon: '📁', href: `#${encodeURIComponent(da.id)}` },
+    { label: dip.title, icon: '📂' },
+  ]);
+
+  const todas = dip.unidades || [];
+  const disponibles = todas.filter((u) => !u.pending).length;
+  el.subtitle.textContent = disponibles === todas.length
+    ? `${plural(todas.length, 'unidad', 'unidades')} SCORM disponibles para descarga`
+    : `${disponibles} de ${todas.length} unidades con ruta de descarga`;
+  setStat(todas.length, 'unidades');
+
+  const unidades = filterBy(todas, ['title', 'filename']);
+  if (!unidades.length) {
+    el.view.innerHTML = state.query
+      ? emptyState('🔍', 'Sin resultados', 'Ninguna unidad coincide con la búsqueda.')
+      : emptyState('📦', 'Sin unidades', 'Este curso aún no tiene unidades registradas.');
+    return;
+  }
+
+  el.view.innerHTML = `<ul class="unidades-list view">${unidades.map((u, i) => {
+    const url = unitUrl(dip, u);
+    const action = url
+      ? `<a class="btn btn-download" href="${esc(url)}" target="_blank" rel="noopener"
+            data-download="${esc(u.filename)}">⬇ Descargar</a>`
+      : '<span class="btn btn-pending" title="Falta registrar la carpeta de SharePoint de este curso">⏳ Ruta pendiente</span>';
+    return `
+      <li class="unidad-card${url ? '' : ' is-pending'}">
+        <span class="unidad-icon" aria-hidden="true">${url ? '📦' : '⏳'}</span>
+        <span class="unidad-index">${i + 1}</span>
+        <span class="unidad-info">
+          <span class="unidad-title">${esc(u.title || u.filename || 'Sin título')}</span>
+          <span class="unidad-filename" title="${esc(u.filename)}">${esc(u.filename)}</span>
+        </span>
+        <span class="unidad-meta">
+          <span class="unidad-date">📅 ${formatDate(u.createdAt)}</span>
+          ${action}
+        </span>
+      </li>`;
+  }).join('')}</ul>`;
+}
+
+// ---- Piezas compartidas ----
+function setBreadcrumb(items) {
+  el.breadcrumb.innerHTML = items.map((item, i) => {
+    const last = i === items.length - 1;
+    const sep = i > 0 ? '<span class="breadcrumb-sep" aria-hidden="true">›</span>' : '';
+    const label = `${item.icon} ${esc(item.label)}`;
+    return sep + (last || !item.href
+      ? `<span class="breadcrumb-item active" aria-current="page">${label}</span>`
+      : `<a class="breadcrumb-item" href="${esc(item.href)}">${label}</a>`);
+  }).join('');
+}
+
+function setStat(count, label) {
+  el.stat.textContent = count;
+  el.statLabel.textContent = label;
+}
+
+function emptyState(icon, heading, message) {
+  return `<div class="empty-state view">
+    <div class="empty-state-icon" aria-hidden="true">${icon}</div>
+    <h3>${heading}</h3>
+    <p>${message}</p>
+  </div>`;
+}
+
+function showToast(message, type = 'success') {
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  toast.setAttribute('role', 'status');
+  toast.textContent = `${type === 'success' ? '✅' : '❌'} ${message}`;
+  el.toasts.appendChild(toast);
+  setTimeout(() => toast.remove(), 4000);
+}
+
+// ============================================================
+//  Eventos (delegación: un solo listener para todas las tarjetas)
+// ============================================================
+
+el.view.addEventListener('click', (event) => {
+  const daCard = event.target.closest('[data-da]');
+  if (daCard) {
+    navigate(daCard.dataset.da, null);
+    return;
+  }
+  const dipCard = event.target.closest('[data-dip]');
+  if (dipCard) {
+    navigate(state.daId, dipCard.dataset.dip);
+    return;
+  }
+  const link = event.target.closest('[data-download]');
+  if (link) showToast(`Abriendo ${link.dataset.download}…`);
+});
+
+el.back.addEventListener('click', () => {
+  navigate(state.dipId ? state.daId : null, null);
+});
+
+el.search.addEventListener('input', debounce((event) => {
+  const next = normalize(event.target.value.trim());
+  if (next === state.query) return;
+  state.query = next;
+  render();
+}, SEARCH_DEBOUNCE_MS));
+
+// Esc limpia la búsqueda; "/" la enfoca.
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && document.activeElement === el.search) {
+    el.search.value = '';
+    state.query = '';
+    render();
+  } else if (event.key === '/' && document.activeElement !== el.search) {
+    event.preventDefault();
+    el.search.focus();
+  }
+});
+
+window.addEventListener('hashchange', render);
+
+// ============================================================
+//  Arranque
+// ============================================================
+
+async function init() {
+  try {
+    // Sin opciones extra: así la petición coincide con el <link rel="preload">
+    // del index.html y el navegador reutiliza la que ya está en vuelo.
+    const res = await fetch(CATALOG_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    state.base = data.base || '';
+    state.catalog = Array.isArray(data.catalog) ? data.catalog : [];
+  } catch (error) {
+    console.error('No se pudo cargar el catálogo:', error);
+    el.view.innerHTML = emptyState('⚠️', 'No se pudo cargar el catálogo',
+      `Revisa que <code>${CATALOG_URL}</code> exista y sea JSON válido.`);
+    setStat(0, 'SCORMs');
+    return;
+  }
+  render();
+}
+
+init();
