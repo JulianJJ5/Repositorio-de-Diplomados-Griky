@@ -59,12 +59,6 @@ html { scroll-behavior: smooth; }
   outline-offset: 2px;
 }
 
-/* Iconos SVG: heredan el color del texto y se alinean con él */
-.icon {
-  flex-shrink: 0;
-  vertical-align: -0.15em;
-}
-
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--bg-base);
@@ -371,25 +365,16 @@ body::before {
   gap: 12px;
 }
 
-/* Neutro a propósito: la única nota de color de la tarjeta es la línea
-   superior. El icono aporta forma, no color. */
 .card-da-icon {
   width: 46px;
   height: 46px;
   border-radius: 12px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
+  border: 1px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.3rem;
   flex-shrink: 0;
-  transition: var(--transition);
-}
-
-.card-da:hover .card-da-icon {
-  color: var(--purple-light);
-  border-color: var(--border-hover);
 }
 
 .card-da-info { flex: 1; flex-direction: column; }
@@ -564,12 +549,12 @@ body::before {
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
+  background: linear-gradient(135deg, rgba(6,182,212,0.15), rgba(124,58,237,0.15));
+  border: 1px solid rgba(6,182,212,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
   flex-shrink: 0;
 }
 
@@ -615,9 +600,8 @@ body::before {
 }
 
 .unidad-card.is-pending .unidad-icon {
-  background: rgba(245,158,11,0.08);
-  border-color: rgba(245,158,11,0.18);
-  color: #FCD34D;
+  background: rgba(245,158,11,0.1);
+  border-color: rgba(245,158,11,0.2);
 }
 
 .card-dip-stat.is-pending { color: #FCD34D; }
@@ -654,9 +638,8 @@ body::before {
 }
 
 .empty-state-icon {
-  color: var(--text-muted);
-  opacity: 0.55;
-  display: flex;
+  font-size: 3rem;
+  opacity: 0.5;
 }
 
 .empty-state h3 {

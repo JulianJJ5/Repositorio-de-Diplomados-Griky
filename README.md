@@ -42,7 +42,7 @@ base  (una sola vez para todo el archivo)
       "title": "1. Diplomado en Acción Climática",
       "description": "Diplomado Avanzado 1",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "graduation",
+      "icon": "🎓",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -131,17 +131,19 @@ de cada diplomado en `catalog.json`.
 
 ### Iconos
 
-Son SVG monocromos que heredan el color del texto (`currentColor`), no emojis.
-El campo `icon` de cada diplomado lleva un **nombre**, no un símbolo:
+Son emojis. El campo `icon` de cada diplomado lleva el símbolo directamente:
 
-`graduation` · `book` · `bulb` · `flask` · `trophy` · `chart` · `target` ·
-`network` · `bolt` · `star`
+```json
+"icon": "🎓"
+```
 
-Los define `ICON_PATHS` en `app.js`, que además tiene los de interfaz (`home`,
-`folder`, `layers`, `package`, `clock`, `calendar`, `download`, `back`, `check`,
-`search`, `warning`, `error`). Para añadir uno, mete su trazado en ese objeto:
-un `viewBox` de `0 0 24 24`, sin `fill` y sin colores fijos. Un nombre que no
-exista simplemente no pinta nada, no rompe la página.
+Los de reserva están en `FALLBACK_ICONS` de `app.js` (🎓 📚 💡 🔬 🏆 📊 🎯 🧠 ⚡ 🌟)
+y se reparten cíclicamente cuando un diplomado no trae `icon` propio.
+
+Se probaron iconos SVG monocromos en su lugar, pero sin color quedaban
+apagados: el emoji aporta el contraste que la paleta sobria le quita al resto
+de la tarjeta. El recuadro que hay detrás sí toma un tinte translúcido derivado
+del `color` del diplomado (lo calcula `accentOf()` en `app.js`).
 
 ---
 

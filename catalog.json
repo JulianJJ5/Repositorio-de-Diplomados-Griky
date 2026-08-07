@@ -6,7 +6,7 @@
       "title": "1. Diplomado en Acción Climática",
       "description": "Diplomado Avanzado 1",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "graduation",
+      "icon": "🎓",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -115,7 +115,7 @@
       "title": "2. Diplomado en Bienestar Integral",
       "description": "Diplomado Avanzado 2",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
-      "icon": "book",
+      "icon": "📚",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -257,7 +257,7 @@
       "title": "3. Diplomado en Arquitectura Cloud",
       "description": "Diplomado Avanzado 3",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
-      "icon": "bulb",
+      "icon": "💡",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -399,7 +399,7 @@
       "title": "4. Diplomado en Ciudadanía Digital",
       "description": "Diplomado Avanzado 4",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
-      "icon": "flask",
+      "icon": "🔬",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -541,7 +541,7 @@
       "title": "5. Diplomado en Blockchain Fundamental",
       "description": "Diplomado Avanzado 5",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "trophy",
+      "icon": "🏆",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -683,7 +683,7 @@
       "title": "6. Diplomado en Gestión de Startups",
       "description": "Diplomado Avanzado 6",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
-      "icon": "chart",
+      "icon": "📊",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -825,7 +825,7 @@
       "title": "7. Diplomado en Cultura Digital",
       "description": "Diplomado Avanzado 7",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
-      "icon": "target",
+      "icon": "🎯",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -967,7 +967,7 @@
       "title": "8. Diplomado en Desarrollo Web3",
       "description": "Diplomado Avanzado 8",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
-      "icon": "network",
+      "icon": "🧠",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1109,7 +1109,7 @@
       "title": "9. Diplomado en Economía Circular",
       "description": "Diplomado Avanzado 9",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "star",
+      "icon": "🌟",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1155,7 +1155,7 @@
       "title": "10. Diplomado en Finanzas Sostenibles",
       "description": "Diplomado Avanzado 10",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
-      "icon": "graduation",
+      "icon": "🎓",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1309,7 +1309,7 @@
       "title": "11. Diplomado en Gestión Ágil",
       "description": "Diplomado Avanzado 11",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
-      "icon": "book",
+      "icon": "📚",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1463,7 +1463,7 @@
       "title": "12. Diplomado en Gestión de la Innovación",
       "description": "Diplomado Avanzado 12",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
-      "icon": "bulb",
+      "icon": "💡",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1617,7 +1617,7 @@
       "title": "13. Diplomado en Gestión de Salud Digital",
       "description": "Diplomado Avanzado 13",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "flask",
+      "icon": "🔬",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1771,7 +1771,7 @@
       "title": "14. Diplomado en Aprendizaje Autónomo",
       "description": "Diplomado Avanzado 14",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
-      "icon": "trophy",
+      "icon": "🏆",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -1925,7 +1925,7 @@
       "title": "15. Diplomado en IA para Negocios",
       "description": "Diplomado Avanzado 15",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
-      "icon": "chart",
+      "icon": "📊",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -2079,7 +2079,7 @@
       "title": "16. Diplomado en Herramientas EdTech",
       "description": "Diplomado Avanzado 16",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
-      "icon": "target",
+      "icon": "🎯",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -2233,7 +2233,7 @@
       "title": "17. Diplomado en Innovación Educativa",
       "description": "Diplomado Avanzado 17",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
-      "icon": "network",
+      "icon": "🧠",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -2387,7 +2387,7 @@
       "title": "18. Diplomado en Innovación Personal",
       "description": "Diplomado Avanzado 18",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
-      "icon": "bolt",
+      "icon": "⚡",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -2541,7 +2541,7 @@
       "title": "19. Diplomado en Innovación Sostenible",
       "description": "Diplomado Avanzado 19",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
-      "icon": "star",
+      "icon": "🌟",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
@@ -2695,7 +2695,7 @@
       "title": "20. Diplomado en Inteligencia de Negocios",
       "description": "Diplomado Avanzado 20",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
-      "icon": "graduation",
+      "icon": "🎓",
       "createdAt": "2026-01-15",
       "diplomados": [
         {
