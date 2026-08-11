@@ -1936,30 +1936,26 @@
             {
               "id": "u-14-3-1",
               "title": "El cerebro que aprende plasticidad neuronas y memoria",
-              "filename": "unidad-1-el-cerebro-que-aprende-plasticidad-neuronas-y-memoria.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "filename": "el-cerebro-que-aprende-plasticidad-neuronas-y-memoria.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-3-2",
               "title": "Estrategias de aprendizaje con respaldo neurocientifico",
-              "filename": "unidad-2-estrategias-de-aprendizaje-con-respaldo-neurocientifico.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "filename": "estrategias-de-aprendizaje-con-respaldo-neurocientifico.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-3-3",
               "title": "Cerebro cuerpo y entorno las condiciones que hacen posible aprender",
-              "filename": "unidad-3-cerebro-cuerpo-y-entorno-las-condiciones-que-hacen-posible-aprender.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "filename": "cerebro-cuerpo-y-entorno-las-condiciones-que-hacen-posible-aprender.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-3-4",
               "title": "Disenar para aprender del conocimiento al plan de accion personal",
               "filename": "unidad-4-disenar-para-aprender-del-conocimiento-al-plan-de-accion-personal.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1974,29 +1970,25 @@
               "id": "u-14-4-1",
               "title": "Emociones y tecnologia un mapa para entender lo que sientes",
               "filename": "unidad-1-emociones-y-tecnologia-un-mapa-para-entender-lo-que-sientes.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-4-2",
               "title": "Patrones digitales y bienestar como la tecnologia moldea tus emociones",
               "filename": "unidad-2-patrones-digitales-y-bienestar-como-la-tecnologia-moldea-tus-emociones.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-4-3",
               "title": "Regulacion emocional en la era digital estrategias para actuar diferente",
               "filename": "unidad-3-regulacion-emocional-en-la-era-digital-estrategias-para-actuar-diferente.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-4-4",
               "title": "Un plan propio integrar la inteligencia emocional en tu vida digital",
               "filename": "unidad-4-un-plan-propio-integrar-la-inteligencia-emocional-en-tu-vida-digital.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         }
@@ -2008,41 +2000,38 @@
       "description": "Diplomado Avanzado 15",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
       "icon": "📊",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-11",
       "diplomados": [
         {
           "id": "d-15-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "15. Diplomado en IA para Negocios/Curso 1. RAG Generación Aumentada por Recuperación/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-15-1-1",
               "title": "Fundamentos de rag arquitectura embeddings y primera consulta",
-              "filename": "unidad-1-fundamentos-de-rag-arquitectura-embeddings-y-primera-consulta.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-rag-arquitectura-embeddings-y-primera-consulta.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-1-2",
               "title": "Construccion del pipeline completo recuperacion contexto y fuentes multiples",
-              "filename": "unidad-2-construccion-del-pipeline-completo-recuperacion-contexto-y-fuentes-multiples.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-del-pipeline-completo-recuperacion-contexto-y-fuentes-multiples.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-1-3",
               "title": "Evaluacion y optimizacion del sistema rag medir depurar y mejorar",
-              "filename": "unidad-3-evaluacion-y-optimizacion-del-sistema-rag-medir-depurar-y-mejorar.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "evaluacion-y-optimizacion-del-sistema-rag-medir-depurar-y-mejorar.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-1-4",
               "title": "Sistema rag completo integracion despliegue y presentacion ejecutiva",
-              "filename": "unidad-4-sistema-rag-completo-integracion-despliegue-y-presentacion-ejecutiva.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "sistema-rag-completo-integracion-despliegue-y-presentacion-ejecutiva.zip",
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -2050,35 +2039,32 @@
           "id": "d-15-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "15. Diplomado en IA para Negocios/Curso 2. Power BI para Inteligencia de Negocios/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-15-2-1",
               "title": "Primeros pasos con power bi datos conexiones y visualizaciones basicas",
-              "filename": "unidad-1-primeros-pasos-con-power-bi-datos-conexiones-y-visualizaciones-basicas.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "primeros-pasos-con-power-bi-datos-conexiones-y-visualizaciones-basicas.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-2-2",
               "title": "Modelado de datos y analisis con dax",
-              "filename": "unidad-2-modelado-de-datos-y-analisis-con-dax.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "modelado-de-datos-y-analisis-con-dax.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-2-3",
               "title": "Optimizacion narrativa visual y buenas practicas de diseno",
-              "filename": "unidad-3-optimizacion-narrativa-visual-y-buenas-practicas-de-diseno.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "optimizacion-narrativa-visual-y-buenas-practicas-de-diseno.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-2-4",
               "title": "Power bi service colaboracion y entrega del dashboard estrategico",
-              "filename": "unidad-4-power-bi-service-colaboracion-y-entrega-del-dashboard-estrategico.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "power-bi-service-colaboracion-y-entrega-del-dashboard-estrategico.zip",
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -2086,35 +2072,32 @@
           "id": "d-15-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "15. Diplomado en IA para Negocios/Curso 3. Automatización con Python y RPA/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-15-3-1",
               "title": "Fundamentos de automatizacion con python",
-              "filename": "unidad-1-fundamentos-de-automatizacion-con-python.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-automatizacion-con-python.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-3-2",
               "title": "Automatizacion de procesos de negocio con python",
-              "filename": "unidad-2-automatizacion-de-procesos-de-negocio-con-python.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "automatizacion-de-procesos-de-negocio-con-python.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-3-3",
               "title": "Rpa automatizacion robotica de procesos",
-              "filename": "unidad-3-rpa-automatizacion-robotica-de-procesos.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "rpa-automatizacion-robotica-de-procesos.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-3-4",
               "title": "Solucion integrada de automatizacion",
-              "filename": "unidad-4-solucion-integrada-de-automatizacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "solucion-integrada-de-automatizacion.zip",
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -2122,35 +2105,32 @@
           "id": "d-15-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "15. Diplomado en IA para Negocios/Curso 4. Agentes de IA para Operaciones Empresariales/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-15-4-1",
               "title": "Fundamentos de agentes de ia y arquitectura basica",
-              "filename": "unidad-1-fundamentos-de-agentes-de-ia-y-arquitectura-basica.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-agentes-de-ia-y-arquitectura-basica.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-4-2",
               "title": "Construccion de agentes con memoria herramientas y flujos",
-              "filename": "unidad-2-construccion-de-agentes-con-memoria-herramientas-y-flujos.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-de-agentes-con-memoria-herramientas-y-flujos.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-4-3",
               "title": "Evaluacion seguridad y fiabilidad de agentes en produccion",
-              "filename": "unidad-3-evaluacion-seguridad-y-fiabilidad-de-agentes-en-produccion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "evaluacion-seguridad-y-fiabilidad-de-agentes-en-produccion.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-15-4-4",
               "title": "Despliegue integracion empresarial y presentacion del agente",
-              "filename": "unidad-4-despliegue-integracion-empresarial-y-presentacion-del-agente.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "despliegue-integracion-empresarial-y-presentacion-del-agente.zip",
+              "createdAt": "2026-08-11"
             }
           ]
         }
