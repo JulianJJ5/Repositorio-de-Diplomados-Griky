@@ -1722,7 +1722,7 @@
           "id": "d-13-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "Folder": "13. Diplomado en Gestión de Salud Digital/Curso 1. Tecnologia Fitness y Entrenamiento Digital/Producción y diseño/SCORMS",
+          "folder": "13. Diplomado en Gestión de Salud Digital/Curso 1. Tecnología Fitness y Entrenamiento Digital/Producción y diseño/SCORMS",
           "createdAt": "2026-08-11",
           "unidades": [
             {
@@ -1756,6 +1756,7 @@
           "title": "Curso 2",
           "description": "Curso 2",
           "createdAt": "2026-08-11",
+          "folder": "13. Diplomado en Gestión de Salud Digital/Curso 2. Tecnología de Salud Preventiva/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-13-2-1",
@@ -1788,34 +1789,31 @@
           "title": "Curso 3",
           "description": "Curso 3",
           "createdAt": "2026-01-15",
+          "folder": "13. Diplomado en Gestión de Salud Digital/Curso 3. Apps de Salud Mental y Terapéutica Digital/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-13-3-1",
               "title": "Fundamentos de las apps de salud mental y la terapeutica digital",
               "filename": "unidad-1-fundamentos-de-las-apps-de-salud-mental-y-la-terapeutica-digital.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-3-2",
               "title": "Construccion del perfil evaluar apps por criterios",
               "filename": "unidad-2-construccion-del-perfil-evaluar-apps-por-criterios.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-3-3",
               "title": "Analisis de viabilidad seguridad etica y escenarios",
-              "filename": "unidad-3-analisis-de-viabilidad-seguridad-etica-y-escenarios.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "filename": "uunidad-3-analisis-de-viabilidad-seguridad-etica-y-escenarios.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-3-4",
               "title": "Guia integrada curaduria recomendacion y uso responsable",
               "filename": "unidad-4-guia-integrada-curaduria-recomendacion-y-uso-responsable.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1824,6 +1822,7 @@
           "title": "Curso 4",
           "description": "Curso 4",
           "createdAt": "2026-01-15",
+          "folder": "13. Diplomado en Gestión de Salud Digital/Curso 4. Apps de Mindfulness y Meditación/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-13-4-1",
