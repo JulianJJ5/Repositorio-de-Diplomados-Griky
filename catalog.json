@@ -1828,29 +1828,25 @@
               "id": "u-13-4-1",
               "title": "Fundamentos del mindfulness y la meditacion en la era digital",
               "filename": "unidad-1-fundamentos-del-mindfulness-y-la-meditacion-en-la-era-digital.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-4-2",
               "title": "Construccion de una practica apoyada en apps",
               "filename": "unidad-2-construccion-de-una-practica-apoyada-en-apps.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-4-3",
               "title": "Analisis critico de apps de bienestar",
               "filename": "unidad-3-analisis-critico-de-apps-de-bienestar.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-4-4",
               "title": "Integracion plan de bienestar digital",
               "filename": "unidad-4-integracion-plan-de-bienestar-digital.zip",
-              "createdAt": "2026-08-11",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         }
@@ -1868,35 +1864,32 @@
           "id": "d-14-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 1. Pensamiento Sistémico y Complejidad/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-14-1-1",
               "title": "Pensar en sistemas fundamentos del pensamiento sistemico",
               "filename": "unidad-1-pensar-en-sistemas-fundamentos-del-pensamiento-sistemico.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-1-2",
               "title": "Complejidad redes y aprendizaje colectivo",
               "filename": "unidad-2-complejidad-redes-y-aprendizaje-colectivo.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-1-3",
               "title": "Complejidad interna metacognicion emocion y aprendizaje",
               "filename": "unidad-3-complejidad-interna-metacognicion-emocion-y-aprendizaje.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-1-4",
               "title": "Diseno personal del aprendizaje autonomo en sistemas complejos",
               "filename": "unidad-4-diseno-personal-del-aprendizaje-autonomo-en-sistemas-complejos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1905,34 +1898,31 @@
           "title": "Curso 2",
           "description": "Curso 2",
           "createdAt": "2026-01-15",
+          "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 2. Aprendizaje Colaborativo en Red/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-14-2-1",
               "title": "Fundamentos del aprendizaje colaborativo en red",
               "filename": "unidad-1-fundamentos-del-aprendizaje-colaborativo-en-red.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-2-2",
               "title": "Diseno de experiencias colaborativas estructura y roles",
               "filename": "unidad-2-diseno-de-experiencias-colaborativas-estructura-y-roles.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-2-3",
               "title": "Comunidades de aprendizaje en red dinamica y sostenimiento",
               "filename": "unidad-3-comunidades-de-aprendizaje-en-red-dinamica-y-sostenimiento.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-14-2-4",
               "title": "Integracion diseno presentacion y defensa de la propuesta",
               "filename": "unidad-4-integracion-diseno-presentacion-y-defensa-de-la-propuesta.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1941,33 +1931,34 @@
           "title": "Curso 3",
           "description": "Curso 3",
           "createdAt": "2026-01-15",
+          "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 3. Neurociencia del Aprendizaje/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-14-3-1",
               "title": "El cerebro que aprende plasticidad neuronas y memoria",
               "filename": "unidad-1-el-cerebro-que-aprende-plasticidad-neuronas-y-memoria.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-3-2",
               "title": "Estrategias de aprendizaje con respaldo neurocientifico",
               "filename": "unidad-2-estrategias-de-aprendizaje-con-respaldo-neurocientifico.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-3-3",
               "title": "Cerebro cuerpo y entorno las condiciones que hacen posible aprender",
               "filename": "unidad-3-cerebro-cuerpo-y-entorno-las-condiciones-que-hacen-posible-aprender.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-3-4",
               "title": "Disenar para aprender del conocimiento al plan de accion personal",
               "filename": "unidad-4-disenar-para-aprender-del-conocimiento-al-plan-de-accion-personal.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             }
           ]
@@ -1977,33 +1968,34 @@
           "title": "Curso 4",
           "description": "Curso 4",
           "createdAt": "2026-01-15",
+          "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 4. Inteligencia Emocional en la Era Digital/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-14-4-1",
               "title": "Emociones y tecnologia un mapa para entender lo que sientes",
               "filename": "unidad-1-emociones-y-tecnologia-un-mapa-para-entender-lo-que-sientes.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-4-2",
               "title": "Patrones digitales y bienestar como la tecnologia moldea tus emociones",
               "filename": "unidad-2-patrones-digitales-y-bienestar-como-la-tecnologia-moldea-tus-emociones.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-4-3",
               "title": "Regulacion emocional en la era digital estrategias para actuar diferente",
               "filename": "unidad-3-regulacion-emocional-en-la-era-digital-estrategias-para-actuar-diferente.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-14-4-4",
               "title": "Un plan propio integrar la inteligencia emocional en tu vida digital",
               "filename": "unidad-4-un-plan-propio-integrar-la-inteligencia-emocional-en-tu-vida-digital.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             }
           ]
