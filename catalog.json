@@ -1143,41 +1143,141 @@
       "description": "Diplomado Avanzado 9",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
       "icon": "🌟",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-06",
       "diplomados": [
         {
           "id": "d-9-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-06",
+          "folder": "9. Diplomado en Economía Circular/Curso 1. Reportes ESG GRI, SASB, TCFD/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-9-1-1",
               "title": "Construccion del reporte con gri y sasb",
               "filename": "construccion-del-reporte-con-gri-y-sasb.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-06"
             },
             {
               "id": "u-9-1-2",
               "title": "Fundamentos del reporte esg y panorama de estandares",
               "filename": "fundamentos-del-reporte-esg-y-panorama-de-estandares.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-06"
             },
             {
               "id": "u-9-1-3",
               "title": "Integracion narrativa y comunicacion del reporte esg",
               "filename": "integracion-narrativa-y-comunicacion-del-reporte-esg.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-06"
             },
             {
               "id": "u-9-1-4",
               "title": "Riesgo climatico y aseguramiento con tcfd",
               "filename": "riesgo-climatico-y-aseguramiento-con-tcfd.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-06"
+            }
+          ]
+        },
+        
+        
+        
+        
+        {
+          "id": "d-9-2",
+          "title": "Curso 2",
+          "description": "Curso 2",
+          "createdAt": "2026-08-06",
+          "folder": "9. Diplomado en Economía Circular/Curso 2. Consumo Responsable y Cadena de Valor/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-9-2-1",
+              "title": "Fundamentos del consumo responsable y la cadena de valor",
+              "filename": "fundamentos-del-consumo-responsable-y-la-cadena-de-valor.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-2-2",
+              "title": "Produccion responsable y practicas en la cadena de valor",
+              "filename": "produccion-responsable-y-practicas-en-la-cadena-de-valor.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-2-3",
+              "title": "Analisis de viabilidad indicadores y riesgos de la cadena",
+              "filename": "analisis-de-viabilidad-indicadores-y-riesgos-de-la-cadena.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-2-4",
+              "title": "Diseno integral del consumo responsable a la cadena transformada",
+              "filename": "diseno-integral-del-consumo-responsable-a-la-cadena-transformada.zip",
+              "createdAt": "2026-08-06"
+            }
+          ]
+        },
+        {
+          "id": "d-9-3",
+          "title": "Curso 3",
+          "description": "Curso 3",
+          "createdAt": "2026-08-06",
+          "folder": "9. Diplomado en Economía Circular/Curso 3. Gestión de Residuos y Cero Desperdicios/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-9-3-1",
+              "title": "Fundamentos del reporte esg y panorama de estandares",
+              "filename": "fundamentos-del-reporte-esg-y-panorama-de-estandares.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-3-2",
+              "title": "Construccion del reporte con gri y sasb",
+              "filename": "construccion-del-reporte-con-gri-y-sasb.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-3-3",
+              "title": "Riesgo climatico y aseguramiento con tcfd",
+              "filename": "riesgo-climatico-y-aseguramiento-con-tcfd.zip",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-3-4",
+              "title": "Integracion narrativa y comunicacion del reporte esg",
+              "filename": "integracion-narrativa-y-comunicacion-del-reporte-esg.zip",
+              "createdAt": "2026-08-06"
+            }
+          ]
+        },
+        {
+          "id": "d-9-4",
+          "title": "Curso 4",
+          "description": "Curso 4",
+          "createdAt": "2026-01-15",
+          "folder": "9. Diplomado en Economía Circular/Curso 4. Moda Sostenible y Textiles/Producción y diseño/SCORMS",
+          "unidades": [
+            {
+              "id": "u-9-4-1",
+              "title": "Fundamentos de la moda sostenible y el ciclo de vida textil",
+              "filename": "unidad-1-fundamentos-de-la-moda-sostenible-y-el-ciclo-de-vida-textil",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-4-2",
+              "title": "Materiales, procesos e impactos ambientales",
+              "filename": "unidad-2-materiales-procesos-e-impactos-ambientales",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-4-3",
+              "title": "Personas, certificaciones y comunicacion responsable",
+              "filename": "unidad-3-personas-certificaciones-y-comunicacion-responsable",
+              "createdAt": "2026-08-06"
+            },
+            {
+              "id": "u-9-4-4",
+              "title": "Economia circular y estrategia de moda sostenible",
+              "filename": "unidad-4-economia-circular-y-estrategia-de-moda-sostenible",
+              "createdAt": "2026-08-06"
             }
           ]
         }
@@ -1189,41 +1289,38 @@
       "description": "Diplomado Avanzado 10",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
       "icon": "🎓",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-10",
       "diplomados": [
         {
           "id": "d-10-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "10. Diplomado en Finanzas Sostenibles/Curso 1. Inversión ESG e Impacto Financiero/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-10-1-1",
               "title": "Fundamentos de la inversion esg",
-              "filename": "unidad-1-fundamentos-de-la-inversion-esg.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-inversion-esg.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-1-2",
               "title": "Analisis y valoracion con criterios esg",
-              "filename": "unidad-2-analisis-y-valoracion-con-criterios-esg.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-y-valoracion-con-criterios-esg.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-1-3",
               "title": "Riesgo impacto y greenwashing",
-              "filename": "unidad-3-riesgo-impacto-y-greenwashing.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "riesgo-impacto-y-greenwashing.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-1-4",
               "title": "Construccion de portafolios esg y tesis de inversion",
-              "filename": "unidad-4-construccion-de-portafolios-esg-y-tesis-de-inversion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-de-portafolios-esg-y-tesis-de-inversion.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1231,35 +1328,32 @@
           "id": "d-10-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "10. Diplomado en Finanzas Sostenibles/Curso 2. Microfinanzas Digitales/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-10-2-1",
               "title": "Fundamentos de las microfinanzas digitales",
-              "filename": "unidad-1-fundamentos-de-las-microfinanzas-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-las-microfinanzas-digitales.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-2-2",
               "title": "Modelos productos y canales digitales",
-              "filename": "unidad-2-modelos-productos-y-canales-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "modelos-productos-y-canales-digitales.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-2-3",
               "title": "Riesgos regulacion y proteccion",
-              "filename": "unidad-3-riesgos-regulacion-y-proteccion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "riesgos-regulacion-y-proteccion.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-2-4",
               "title": "Diseno de una propuesta integral",
-              "filename": "unidad-4-diseno-de-una-propuesta-integral.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-una-propuesta-integral.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1267,35 +1361,32 @@
           "id": "d-10-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "10. Diplomado en Finanzas Sostenibles/Curso 3. Educación Financiera y Finanzas Conductuales/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-10-3-1",
               "title": "Por que el conocimiento no basta fundamentos de las finanzas conductuales",
-              "filename": "unidad-1-por-que-el-conocimiento-no-basta-fundamentos-de-las-finanzas-conductuales.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "por-que-el-conocimiento-no-basta-fundamentos-de-las-finanzas-conductuales.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-3-2",
               "title": "Sesgos en accion gasto ahorro y endeudamiento",
-              "filename": "unidad-2-sesgos-en-accion-gasto-ahorro-y-endeudamiento.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "sesgos-en-accion-gasto-ahorro-y-endeudamiento.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-3-3",
               "title": "Decisiones de inversion y diseno de mejores entornos",
-              "filename": "unidad-3-decisiones-de-inversion-y-diseno-de-mejores-entornos.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "udecisiones-de-inversion-y-diseno-de-mejores-entornos.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-3-4",
               "title": "Diseno de programas de educacion financiera conductual",
-              "filename": "unidad-4-diseno-de-programas-de-educacion-financiera-conductual.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-programas-de-educacion-financiera-conductual.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1303,35 +1394,32 @@
           "id": "d-10-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "10. Diplomado en Finanzas Sostenibles/Curso 4. NFTs y Tokenización de Activos/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-10-4-1",
               "title": "Fundamentos de los nfts y la tokenizacion",
-              "filename": "unidad-1-fundamentos-de-los-nfts-y-la-tokenizacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-los-nfts-y-la-tokenizacion.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-4-2",
               "title": "Crear y emitir un activo tokenizado",
-              "filename": "unidad-2-crear-y-emitir-un-activo-tokenizado.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "crear-y-emitir-un-activo-tokenizado.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-4-3",
               "title": "Valor riesgo y seguridad de los activos tokenizados",
-              "filename": "unidad-3-valor-riesgo-y-seguridad-de-los-activos-tokenizados.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "valor-riesgo-y-seguridad-de-los-activos-tokenizados.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-10-4-4",
               "title": "Tokenizacion de activos reales e integracion final",
-              "filename": "unidad-4-tokenizacion-de-activos-reales-e-integracion-final.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "tokenizacion-de-activos-reales-e-integracion-final.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         }
@@ -1343,41 +1431,38 @@
       "description": "Diplomado Avanzado 11",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
       "icon": "📚",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-10",
       "diplomados": [
         {
           "id": "d-11-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "11. Diplomado en Gestión Ágil/Curso 1. Innovación Abierta y Venture Corporativo/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-11-1-1",
               "title": "Fundamentos de la innovacion abierta y el venture corporativo",
-              "filename": "unidad-1-fundamentos-de-la-innovacion-abierta-y-el-venture-corporativo.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-innovacion-abierta-y-el-venture-corporativo.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-1-2",
               "title": "Diseno de iniciativas de innovacion abierta",
-              "filename": "unidad-2-diseno-de-iniciativas-de-innovacion-abierta.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-iniciativas-de-innovacion-abierta.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-1-3",
               "title": "Analisis de viabilidad riesgos y gobernanza",
-              "filename": "unidad-3-analisis-de-viabilidad-riesgos-y-gobernanza.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-de-viabilidad-riesgos-y-gobernanza.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-1-4",
               "title": "Integracion hoja de ruta para crear valor desde el ecosistema",
-              "filename": "unidad-4-integracion-hoja-de-ruta-para-crear-valor-desde-el-ecosistema.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "integracion-hoja-de-ruta-para-crear-valor-desde-el-ecosistema.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1385,35 +1470,33 @@
           "id": "d-11-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "11. Diplomado en Gestión Ágil/Curso 2. Intraemprendimiento e Innovación Corporativa/Producción y diseño/SCORMS",
+
           "unidades": [
             {
               "id": "u-11-2-1",
               "title": "Fundamentos del intraemprendimiento y la innovacion corporativa",
-              "filename": "unidad-1-fundamentos-del-intraemprendimiento-y-la-innovacion-corporativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-intraemprendimiento-y-la-innovacion-corporativa.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-2-2",
               "title": "Identificacion de oportunidades y diseno de la iniciativa",
-              "filename": "unidad-2-identificacion-de-oportunidades-y-diseno-de-la-iniciativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "identificacion-de-oportunidades-y-diseno-de-la-iniciativa.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-2-3",
               "title": "Analisis de viabilidad y gestion del cambio",
-              "filename": "unidad-3-analisis-de-viabilidad-y-gestion-del-cambio.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-de-viabilidad-y-gestion-del-cambio.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-2-4",
               "title": "Integracion del caso de negocio al pitch de innovacion",
-              "filename": "unidad-4-integracion-del-caso-de-negocio-al-pitch-de-innovacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "integracion-del-caso-de-negocio-al-pitch-de-innovacion.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1421,35 +1504,32 @@
           "id": "d-11-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "11. Diplomado en Gestión Ágil/Curso 3. Gestión de Proyectos con Notion y Monday/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-11-3-1",
               "title": "Fundamentos de la gestion de proyectos digitales",
-              "filename": "unidad-1-fundamentos-de-la-gestion-de-proyectos-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-gestion-de-proyectos-digitales.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-3-2",
               "title": "Construccion del tablero de proyecto",
-              "filename": "unidad-2-construccion-del-tablero-de-proyecto.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-del-tablero-de-proyecto.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-3-3",
               "title": "Seguimiento y analisis del proyecto",
-              "filename": "unidad-3-seguimiento-y-analisis-del-proyecto.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "seguimiento-y-analisis-del-proyecto.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-3-4",
               "title": "Sistema integrado de gestion de proyectos",
-              "filename": "unidad-4-sistema-integrado-de-gestion-de-proyectos.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "sistema-integrado-de-gestion-de-proyectos.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1457,35 +1537,32 @@
           "id": "d-11-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "11. Diplomado en Gestión Ágil/Curso 4. Fundamentos de Gestión de Producto/Producción y diseño/SCORMS",
           "unidades": [
             {
               "id": "u-11-4-1",
               "title": "Fundamentos del rol y del producto",
-              "filename": "unidad-1-fundamentos-del-rol-y-del-producto.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-rol-y-del-producto.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-4-2",
               "title": "Descubrimiento usuario datos y oportunidades",
-              "filename": "unidad-2-descubrimiento-usuario-datos-y-oportunidades.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "descubrimiento-usuario-datos-y-oportunidades.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-4-3",
               "title": "Priorizacion y decisiones de producto",
-              "filename": "unidad-3-priorizacion-y-decisiones-de-producto.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "priorizacion-y-decisiones-de-producto.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-11-4-4",
               "title": "Del plan a la entrega de valor",
-              "filename": "unidad-4-del-plan-a-la-entrega-de-valor.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "del-plan-a-la-entrega-de-valor.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         }
@@ -1497,41 +1574,38 @@
       "description": "Diplomado Avanzado 12",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
       "icon": "💡",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-10",
       "diplomados": [
         {
           "id": "d-12-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "12. Diplomado en Gestión de la Innovación/Curso 1. Estrategia de Transformación Digital/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-12-1-1",
               "title": "Fundamentos de la transformacion digital",
-              "filename": "unidad-1-fundamentos-de-la-transformacion-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-transformacion-digital.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-1-2",
               "title": "Diseno de la estrategia digital",
-              "filename": "unidad-2-diseno-de-la-estrategia-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-la-estrategia-digital.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-1-3",
               "title": "Analisis de viabilidad e implementacion",
-              "filename": "unidad-3-analisis-de-viabilidad-e-implementacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-de-viabilidad-e-implementacion.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-1-4",
               "title": "Estrategia integrada y hoja de ruta",
-              "filename": "unidad-4-estrategia-integrada-y-hoja-de-ruta.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "estrategia-integrada-y-hoja-de-ruta.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1539,35 +1613,32 @@
           "id": "d-12-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "12. Diplomado en Gestión de la Innovación/Curso 2. Lean Startup y Desarrollo de Clientes/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-12-2-1",
               "title": "Fundamentos de lean startup y desarrollo de clientes",
-              "filename": "unidad-1-fundamentos-de-lean-startup-y-desarrollo-de-clientes.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-lean-startup-y-desarrollo-de-clientes.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-2-2",
               "title": "Diseno y ejecucion de experimentos de validacion",
-              "filename": "unidad-2-diseno-y-ejecucion-de-experimentos-de-validacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-y-ejecucion-de-experimentos-de-validacion.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-2-3",
               "title": "Analisis de la evidencia aprender pivotar o perseverar",
-              "filename": "unidad-3-analisis-de-la-evidencia-aprender-pivotar-o-perseverar.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-de-la-evidencia-aprender-pivotar-o-perseverar.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-2-4",
               "title": "Modelo de negocio validado y narrativa de traccion",
-              "filename": "unidad-4-modelo-de-negocio-validado-y-narrativa-de-traccion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "modelo-de-negocio-validado-y-narrativa-de-traccion.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1575,35 +1646,32 @@
           "id": "d-12-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-10",
+          "folder": "12. Diplomado en Gestión de la Innovación/Curso 3. Innovación de Modelos de Negocio/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-12-3-1",
               "title": "Fundamentos del modelo de negocio",
-              "filename": "unidad-1-fundamentos-del-modelo-de-negocio.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-modelo-de-negocio.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-3-2",
               "title": "Diseno de los bloques del modelo",
-              "filename": "unidad-2-diseno-de-los-bloques-del-modelo.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-los-bloques-del-modelo.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-3-3",
               "title": "Analisis de viabilidad e innovacion",
-              "filename": "unidad-3-analisis-de-viabilidad-e-innovacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-de-viabilidad-e-innovacion.zip",
+              "createdAt": "2026-08-10"
             },
             {
               "id": "u-12-3-4",
               "title": "Innovacion integrada y defensa del modelo",
-              "filename": "unidad-4-innovacion-integrada-y-defensa-del-modelo.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "innovacion-integrada-y-defensa-del-modelo.zip",
+              "createdAt": "2026-08-10"
             }
           ]
         },
@@ -1611,35 +1679,32 @@
           "id": "d-12-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
+          "folder": "12. Diplomado en Gestión de la Innovación/Curso 4. Pitch Deck y Narrativa para Inversores/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-12-4-1",
               "title": "Fundamentos del pitch deck y la narrativa para inversores",
-              "filename": "unidad-1-fundamentos-del-pitch-deck-y-la-narrativa-para-inversores.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-pitch-deck-y-la-narrativa-para-inversores.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-12-4-2",
               "title": "Construccion del mensaje problema mercado y propuesta de valor",
-              "filename": "unidad-2-construccion-del-mensaje-problema-mercado-y-propuesta-de-valor.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-del-mensaje-problema-mercado-y-propuesta-de-valor.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-12-4-3",
               "title": "Analisis y refinamiento del pitch",
-              "filename": "unidad-3-analisis-y-refinamiento-del-pitch.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-y-refinamiento-del-pitch.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-12-4-4",
               "title": "Pitch integral presentacion y defensa ante inversores",
-              "filename": "unidad-4-pitch-integral-presentacion-y-defensa-ante-inversores.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "pitch-integral-presentacion-y-defensa-ante-inversores.zip",
+              "createdAt": "2026-08-11"
             }
           ]
         }
@@ -1657,35 +1722,32 @@
           "id": "d-13-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "Folder": "13. Diplomado en Gestión de Salud Digital/Curso 1. Tecnologia Fitness y Entrenamiento Digital/Producción y diseño/SCORMS",
+          "createdAt": "2026-08-11",
           "unidades": [
             {
               "id": "u-13-1-1",
               "title": "Fundamentos de la tecnologia fitness y el entrenamiento digital",
-              "filename": "unidad-1-fundamentos-de-la-tecnologia-fitness-y-el-entrenamiento-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-tecnologia-fitness-y-el-entrenamiento-digital.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-1-2",
               "title": "Construccion del entrenamiento digital metricas planes y personalizacion",
-              "filename": "unidad-2-construccion-del-entrenamiento-digital-metricas-planes-y-personalizacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-del-entrenamiento-digital-metricas-planes-y-personalizacion.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-1-3",
               "title": "Analisis critico evidencia privacidad y uso saludable de la tecnologia",
               "filename": "unidad-3-analisis-critico-evidencia-privacidad-y-uso-saludable-de-la-tecnologia.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-1-4",
               "title": "Plan integrado de entrenamiento y bienestar digital",
               "filename": "unidad-4-plan-integrado-de-entrenamiento-y-bienestar-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1693,35 +1755,31 @@
           "id": "d-13-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-11",
           "unidades": [
             {
               "id": "u-13-2-1",
               "title": "Fundamentos de la salud preventiva y las tecnologias del bienestar",
-              "filename": "unidad-1-fundamentos-de-la-salud-preventiva-y-las-tecnologias-del-bienestar.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-salud-preventiva-y-las-tecnologias-del-bienestar.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-2-2",
               "title": "Diseno de estrategias de prevencion apoyadas en tecnologia",
-              "filename": "unidad-2-diseno-de-estrategias-de-prevencion-apoyadas-en-tecnologia.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-estrategias-de-prevencion-apoyadas-en-tecnologia.zip",
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-2-3",
               "title": "Analisis critico evidencia privacidad y equidad en salud digital",
               "filename": "unidad-3-analisis-critico-evidencia-privacidad-y-equidad-en-salud-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             },
             {
               "id": "u-13-2-4",
               "title": "Propuesta integrada de salud preventiva digital",
               "filename": "unidad-4-propuesta-integrada-de-salud-preventiva-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-11"
             }
           ]
         },
@@ -1735,28 +1793,28 @@
               "id": "u-13-3-1",
               "title": "Fundamentos de las apps de salud mental y la terapeutica digital",
               "filename": "unidad-1-fundamentos-de-las-apps-de-salud-mental-y-la-terapeutica-digital.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-3-2",
               "title": "Construccion del perfil evaluar apps por criterios",
               "filename": "unidad-2-construccion-del-perfil-evaluar-apps-por-criterios.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-3-3",
               "title": "Analisis de viabilidad seguridad etica y escenarios",
               "filename": "unidad-3-analisis-de-viabilidad-seguridad-etica-y-escenarios.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-3-4",
               "title": "Guia integrada curaduria recomendacion y uso responsable",
               "filename": "unidad-4-guia-integrada-curaduria-recomendacion-y-uso-responsable.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             }
           ]
@@ -1771,28 +1829,28 @@
               "id": "u-13-4-1",
               "title": "Fundamentos del mindfulness y la meditacion en la era digital",
               "filename": "unidad-1-fundamentos-del-mindfulness-y-la-meditacion-en-la-era-digital.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-4-2",
               "title": "Construccion de una practica apoyada en apps",
               "filename": "unidad-2-construccion-de-una-practica-apoyada-en-apps.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-4-3",
               "title": "Analisis critico de apps de bienestar",
               "filename": "unidad-3-analisis-critico-de-apps-de-bienestar.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             },
             {
               "id": "u-13-4-4",
               "title": "Integracion plan de bienestar digital",
               "filename": "unidad-4-integracion-plan-de-bienestar-digital.zip",
-              "createdAt": "",
+              "createdAt": "2026-08-11",
               "pending": true
             }
           ]
