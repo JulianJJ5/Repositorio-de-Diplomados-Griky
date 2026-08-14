@@ -1252,7 +1252,7 @@
           "id": "d-9-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "9. Diplomado en Economía Circular/Curso 4. Moda Sostenible y Textiles/Producción y diseño/SCORMS",
           "unidades": [
             {
@@ -1716,7 +1716,7 @@
       "description": "Diplomado Avanzado 13",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
       "icon": "🔬",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-13-1",
@@ -1788,7 +1788,7 @@
           "id": "d-13-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "13. Diplomado en Gestión de Salud Digital/Curso 3. Apps de Salud Mental y Terapéutica Digital/Producción y diseño/SCORM",
           "unidades": [
             {
@@ -1821,7 +1821,7 @@
           "id": "d-13-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "13. Diplomado en Gestión de Salud Digital/Curso 4. Apps de Mindfulness y Meditación/Producción y diseño/SCORM",
           "unidades": [
             {
@@ -1858,7 +1858,7 @@
       "description": "Diplomado Avanzado 14",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
       "icon": "🏆",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-14-1",
@@ -1897,7 +1897,7 @@
           "id": "d-14-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 2. Aprendizaje Colaborativo en Red/Producción y diseño/SCORM",
           "unidades": [
             {
@@ -1930,7 +1930,7 @@
           "id": "d-14-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 3. Neurociencia del Aprendizaje/Producción y diseño/SCORM",
           "unidades": [
             {
@@ -1963,7 +1963,7 @@
           "id": "d-14-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
           "folder": "14. Diplomado en Aprendizaje Autónomo/Curso 4. Inteligencia Emocional en la Era Digital/Producción y diseño/SCORM",
           "unidades": [
             {
@@ -2142,41 +2142,38 @@
       "description": "Diplomado Avanzado 16",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
       "icon": "🎯",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-13",
       "diplomados": [
         {
           "id": "d-16-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "16. Diplomado en Herramientas EdTech/Curso 1. Bienestar Estudiantil, Salud Mental e Inteligencia Emocional en el Aula/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-16-1-1",
               "title": "Fundamentos del bienestar la salud mental y la inteligencia emocional en el aula",
-              "filename": "unidad-1-fundamentos-del-bienestar-la-salud-mental-y-la-inteligencia-emocional-en-el-aula.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-bienestar-la-salud-mental-y-la-inteligencia-emocional-en-el-aula.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-1-2",
               "title": "Estrategias y herramientas digitales para promover el bienestar emocional",
-              "filename": "unidad-2-estrategias-y-herramientas-digitales-para-promover-el-bienestar-emocional.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "estrategias-y-herramientas-digitales-para-promover-el-bienestar-emocional.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-1-3",
               "title": "Evaluacion critica pertinencia etica y limites de las practicas digitales de bienestar",
-              "filename": "unidad-3-evaluacion-critica-pertinencia-etica-y-limites-de-las-practicas-digitales-de-bienestar.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "evaluacion-critica-pertinencia-etica-y-limites-de-las-practicas-digitales-de-bienestar.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-1-4",
               "title": "Diseno de un plan integral de bienestar y desarrollo emocional",
-              "filename": "unidad-4-diseno-de-un-plan-integral-de-bienestar-y-desarrollo-emocional.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-un-plan-integral-de-bienestar-y-desarrollo-emocional.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2184,35 +2181,32 @@
           "id": "d-16-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "16. Diplomado en Herramientas EdTech/Curso 2. Narrativa Educativa/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-16-2-1",
               "title": "Fundamentos de la narrativa educativa",
-              "filename": "unidad-1-fundamentos-de-la-narrativa-educativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-narrativa-educativa.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-2-2",
               "title": "Construccion de la experiencia narrativa",
-              "filename": "unidad-2-construccion-de-la-experiencia-narrativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-de-la-experiencia-narrativa.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-2-3",
               "title": "Analisis y mejora de la narrativa",
-              "filename": "unidad-3-analisis-y-mejora-de-la-narrativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "uanalisis-y-mejora-de-la-narrativa.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-2-4",
               "title": "Diseno integrado de narrativa educativa",
-              "filename": "unidad-4-diseno-integrado-de-narrativa-educativa.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-integrado-de-narrativa-educativa.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2220,35 +2214,32 @@
           "id": "d-16-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "16. Diplomado en Herramientas EdTech/Curso 3. Herramientas Creativas para Educadores/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-16-3-1",
               "title": "Fundamentos del diseno creativo de recursos educativos",
               "filename": "unidad-1-fundamentos-del-diseno-creativo-de-recursos-educativos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-3-2",
               "title": "Recursos visuales para el aula",
               "filename": "unidad-2-recursos-visuales-para-el-aula.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-3-3",
               "title": "Interactividad y gamificacion con genially",
               "filename": "unidad-3-interactividad-y-gamificacion-con-genially.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-3-4",
               "title": "Integracion el kit creativo del docente",
               "filename": "unidad-4-integracion-el-kit-creativo-del-docente.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2256,35 +2247,32 @@
           "id": "d-16-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "16. Diplomado en Herramientas EdTech/Curso 4. Comunidades de Aprendizaje y Colaboración en Entornos Digitales/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-16-4-1",
               "title": "Fundamentos de las comunidades de aprendizaje en entornos digitales",
-              "filename": "unidad-1-fundamentos-de-las-comunidades-de-aprendizaje-en-entornos-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-las-comunidades-de-aprendizaje-en-entornos-digitales.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-4-2",
               "title": "Construccion y puesta en marcha de la comunidad",
-              "filename": "unidad-2-construccion-y-puesta-en-marcha-de-la-comunidad.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-y-puesta-en-marcha-de-la-comunidad.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-4-3",
               "title": "Analisis y mejora de la dinamica comunitaria",
-              "filename": "unidad-3-analisis-y-mejora-de-la-dinamica-comunitaria.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-y-mejora-de-la-dinamica-comunitaria.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-16-4-4",
               "title": "Dinamizacion sostenible y entrega de la comunidad",
-              "filename": "unidad-4-dinamizacion-sostenible-y-entrega-de-la-comunidad.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "dinamizacion-sostenible-y-entrega-de-la-comunidad.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         }
@@ -2296,41 +2284,38 @@
       "description": "Diplomado Avanzado 17",
       "color": "linear-gradient(135deg,#7C3AED 0%,#6D5BEF 100%)",
       "icon": "🧠",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-17-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "17. Diplomado en Innovación Educativa/Curso 1. Aula Invertida y Aprendizaje Híbrido/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-17-1-1",
               "title": "Fundamentos del aula invertida y el aprendizaje hibrido",
-              "filename": "unidad-1-fundamentos-del-aula-invertida-y-el-aprendizaje-hibrido.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-aula-invertida-y-el-aprendizaje-hibrido.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-1-2",
               "title": "Diseno de experiencias de aula invertida",
-              "filename": "unidad-2-diseno-de-experiencias-de-aula-invertida.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-de-experiencias-de-aula-invertida.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-1-3",
               "title": "Analisis y mejora de experiencias de aula invertida",
-              "filename": "unidad-3-analisis-y-mejora-de-experiencias-de-aula-invertida.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "analisis-y-mejora-de-experiencias-de-aula-invertida.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-1-4",
               "title": "Diseno integrado de la unidad didactica invertida",
-              "filename": "unidad-4-diseno-integrado-de-la-unidad-didactica-invertida.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "diseno-integrado-de-la-unidad-didactica-invertida.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2338,35 +2323,32 @@
           "id": "d-17-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "17. Diplomado en Innovación Educativa/Curso 2. Neuroeducación y Ciencia del Aprendizaje/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-17-2-1",
               "title": "El cerebro que aprende fundamentos de neuroeducacion",
-              "filename": "unidad-1-el-cerebro-que-aprende-fundamentos-de-neuroeducacion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "el-cerebro-que-aprende-fundamentos-de-neuroeducacion.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-2-2",
               "title": "Memoria recuperacion y diseno de experiencias de aprendizaje",
-              "filename": "unidad-2-memoria-recuperacion-y-diseno-de-experiencias-de-aprendizaje.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "memoria-recuperacion-y-diseno-de-experiencias-de-aprendizaje.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-2-3",
               "title": "Aprendizaje socioemocional motivacion y entornos tecnologicos",
-              "filename": "unidad-3-aprendizaje-socioemocional-motivacion-y-entornos-tecnologicos.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "aprendizaje-socioemocional-motivacion-y-entornos-tecnologicos.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-2-4",
               "title": "Del conocimiento a la accion diseno e implementacion de intervenciones pedagogicas basadas en neurociencia",
-              "filename": "unidad-4-del-conocimiento-a-la-accion-diseno-e-implementacion-de-intervenciones-pedagogicas-basadas-en-neurociencia.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "del-conocimiento-a-la-accion-diseno-e-implementacion-de-intervenciones-pedagogicas-basadas-en-neurociencia.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2374,35 +2356,32 @@
           "id": "d-17-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "17. Diplomado en Innovación Educativa/Curso 3. Educación Inclusiva y Accesibilidad/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-17-3-1",
               "title": "Fundamentos de la educacion inclusiva y el diseno universal",
-              "filename": "unidad-1-fundamentos-de-la-educacion-inclusiva-y-el-diseno-universal.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-de-la-educacion-inclusiva-y-el-diseno-universal.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-3-2",
               "title": "Tecnologias accesibles y herramientas de apoyo en el aula",
-              "filename": "unidad-2-tecnologias-accesibles-y-herramientas-de-apoyo-en-el-aula.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "tecnologias-accesibles-y-herramientas-de-apoyo-en-el-aula.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-3-3",
               "title": "Evaluacion inclusiva y auditoria de accesibilidad",
-              "filename": "unidad-3-evaluacion-inclusiva-y-auditoria-de-accesibilidad.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "evaluacion-inclusiva-y-auditoria-de-accesibilidad.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-3-4",
               "title": "Plan de accesibilidad educativa integracion y accion",
-              "filename": "unidad-4-plan-de-accesibilidad-educativa-integracion-y-accion.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "plan-de-accesibilidad-educativa-integracion-y-accion.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         },
@@ -2410,35 +2389,32 @@
           "id": "d-17-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-13",
+          "folder": "17. Diplomado en Innovación Educativa/Curso 4. Aprendizaje Inmersivo Realidad Virtual, Aumentada y Entornos XR/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-17-4-1",
               "title": "Fundamentos del aprendizaje inmersivo con tecnologias xr",
-              "filename": "unidad-1-fundamentos-del-aprendizaje-inmersivo-con-tecnologias-xr.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "fundamentos-del-aprendizaje-inmersivo-con-tecnologias-xr.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-4-2",
               "title": "Construccion de experiencias xr educativas",
-              "filename": "unidad-2-construccion-de-experiencias-xr-educativas.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "construccion-de-experiencias-xr-educativas.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-4-3",
               "title": "Evaluacion y mejora de experiencias xr",
-              "filename": "unidad-3-evaluacion-y-mejora-de-experiencias-xr.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "evaluacion-y-mejora-de-experiencias-xr.zip",
+              "createdAt": "2026-08-13"
             },
             {
               "id": "u-17-4-4",
               "title": "Integracion presentacion y futuro del aprendizaje inmersivo",
-              "filename": "unidad-4-integracion-presentacion-y-futuro-del-aprendizaje-inmersivo.zip",
-              "createdAt": "",
-              "pending": true
+              "filename": "integracion-presentacion-y-futuro-del-aprendizaje-inmersivo.zip",
+              "createdAt": "2026-08-13"
             }
           ]
         }
@@ -2450,41 +2426,38 @@
       "description": "Diplomado Avanzado 18",
       "color": "linear-gradient(135deg,#6D5BEF 0%,#5B7BF0 100%)",
       "icon": "⚡",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-18-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "18. Diplomado en Innovación Personal/Curso 1. Pensamiento Crítico y Analítico/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-18-1-1",
               "title": "Fundamentos del pensamiento critico",
               "filename": "unidad-1-fundamentos-del-pensamiento-critico.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-1-2",
               "title": "Evaluacion de informacion y fuentes en entornos digitales",
               "filename": "unidad-2-evaluacion-de-informacion-y-fuentes-en-entornos-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-1-3",
               "title": "Analisis de argumentos y toma de decisiones fundamentadas",
               "filename": "unidad-3-analisis-de-argumentos-y-toma-de-decisiones-fundamentadas.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-1-4",
               "title": "Protocolo personal de pensamiento critico",
               "filename": "unidad-4-protocolo-personal-de-pensamiento-critico.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2492,35 +2465,32 @@
           "id": "d-18-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "18. Diplomado en Innovación Personal/Curso 2. Creatividad e Innovación Sistemática/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-18-2-1",
               "title": "Creatividad como competencia fundamentos y perfil creativo",
               "filename": "unidad-1-creatividad-como-competencia-fundamentos-y-perfil-creativo.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-2-2",
               "title": "Metodologias de ideacion sistematica",
               "filename": "unidad-2-metodologias-de-ideacion-sistematica.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-2-3",
               "title": "Evaluacion de ideas e innovacion en contexto",
               "filename": "unidad-3-evaluacion-de-ideas-e-innovacion-en-contexto.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-2-4",
               "title": "Del idea al plan diseno de un proyecto de innovacion personal",
               "filename": "unidad-4-del-idea-al-plan-diseno-de-un-proyecto-de-innovacion-personal.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2528,35 +2498,32 @@
           "id": "d-18-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "18. Diplomado en Innovación Personal/Curso 3. Aprender a Aprender con IA/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-18-3-1",
               "title": "Como aprendemos y por que la ia cambia todo",
               "filename": "unidad-1-como-aprendemos-y-por-que-la-ia-cambia-todo.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-3-2",
               "title": "Estrategias de aprendizaje potenciadas por ia",
               "filename": "unidad-2-estrategias-de-aprendizaje-potenciadas-por-ia.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-3-3",
               "title": "Diseno de prompts para aprender mejor",
               "filename": "unidad-3-diseno-de-prompts-para-aprender-mejor.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-3-4",
               "title": "Tu sistema personal de aprendizaje con ia",
               "filename": "unidad-4-tu-sistema-personal-de-aprendizaje-con-ia.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2564,35 +2531,32 @@
           "id": "d-18-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "18. Diplomado en Innovación Personal/Curso 4. Gestión del Tiempo y Productividad Digital/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-18-4-1",
               "title": "Fundamentos de la gestion del tiempo y productividad digital",
               "filename": "unidad-1-fundamentos-de-la-gestion-del-tiempo-y-productividad-digital.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-4-2",
               "title": "Sistemas de organizacion y gestion de proyectos digitales",
               "filename": "unidad-2-sistemas-de-organizacion-y-gestion-de-proyectos-digitales.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-4-3",
               "title": "Gestion de la energia el foco y el tiempo bloqueado",
               "filename": "unidad-3-gestion-de-la-energia-el-foco-y-el-tiempo-bloqueado.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-18-4-4",
               "title": "Habitos sostenibles y sistema personal integrado",
               "filename": "unidad-4-habitos-sostenibles-y-sistema-personal-integrado.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         }
@@ -2604,41 +2568,38 @@
       "description": "Diplomado Avanzado 19",
       "color": "linear-gradient(135deg,#5B7BF0 0%,#4A9BF0 100%)",
       "icon": "🌟",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-19-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "19. Diplomado en Innovación Sostenible/Curso 1. Agricultura Regenerativa y FoodTech/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-19-1-1",
               "title": "Fundamentos de la agricultura regenerativa y los sistemas foodtech",
               "filename": "unidad-1-fundamentos-de-la-agricultura-regenerativa-y-los-sistemas-foodtech.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-1-2",
               "title": "Practicas regenerativas y soluciones tecnologicas",
               "filename": "unidad-2-practicas-regenerativas-y-soluciones-tecnologicas.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-1-3",
               "title": "Analisis de viabilidad impacto y riesgos",
               "filename": "unidad-3-analisis-de-viabilidad-impacto-y-riesgos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-1-4",
               "title": "Diseno de una propuesta integrada de transicion",
               "filename": "unidad-4-diseno-de-una-propuesta-integrada-de-transicion.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2646,35 +2607,32 @@
           "id": "d-19-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "19. Diplomado en Innovación Sostenible/Curso 2. Turismo Regenerativo/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-19-2-1",
               "title": "Fundamentos del turismo regenerativo",
               "filename": "unidad-1-fundamentos-del-turismo-regenerativo.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-2-2",
               "title": "Diseno de destinos y experiencias regenerativas",
               "filename": "unidad-2-diseno-de-destinos-y-experiencias-regenerativas.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-2-3",
               "title": "Analisis de impacto y viabilidad",
               "filename": "unidad-3-analisis-de-impacto-y-viabilidad.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-2-4",
               "title": "Plan regenerativo integrado y narrativa para actores clave",
               "filename": "unidad-4-plan-regenerativo-integrado-y-narrativa-para-actores-clave.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2682,35 +2640,32 @@
           "id": "d-19-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "19. Diplomado en Innovación Sostenible/Curso 3. Ciudades Inteligentes e IoT Verde/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-19-3-1",
               "title": "Fundamentos de ciudades inteligentes e iot verde",
               "filename": "unidad-1-fundamentos-de-ciudades-inteligentes-e-iot-verde.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-3-2",
               "title": "Aplicaciones de iot verde en los sistemas urbanos",
               "filename": "unidad-2-aplicaciones-de-iot-verde-en-los-sistemas-urbanos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-3-3",
               "title": "Analisis de viabilidad datos e impacto",
               "filename": "unidad-3-analisis-de-viabilidad-datos-e-impacto.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-3-4",
               "title": "Diseno integrado y narrativa para tomadores de decision",
               "filename": "unidad-4-diseno-integrado-y-narrativa-para-tomadores-de-decision.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2718,35 +2673,32 @@
           "id": "d-19-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "19. Diplomado en Innovación Sostenible/Curso 4. Gestión del Agua y Economía Azul/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-19-4-1",
               "title": "Fundamentos de la gestion del agua y la economia azul",
               "filename": "unidad-1-fundamentos-de-la-gestion-del-agua-y-la-economia-azul.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-4-2",
               "title": "Uso eficiente del agua y aprovechamiento de los recursos acuaticos",
               "filename": "unidad-2-uso-eficiente-del-agua-y-aprovechamiento-de-los-recursos-acuaticos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-4-3",
               "title": "Analisis de viabilidad criterios indicadores y riesgos",
               "filename": "unidad-3-analisis-de-viabilidad-criterios-indicadores-y-riesgos.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-19-4-4",
               "title": "Plan integrado financiamiento y narrativa para la decision",
               "filename": "unidad-4-plan-integrado-financiamiento-y-narrativa-para-la-decision.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         }
@@ -2758,41 +2710,38 @@
       "description": "Diplomado Avanzado 20",
       "color": "linear-gradient(135deg,#4A9BF0 0%,#06B6D4 100%)",
       "icon": "🎓",
-      "createdAt": "2026-01-15",
+      "createdAt": "2026-08-14",
       "diplomados": [
         {
           "id": "d-20-1",
           "title": "Curso 1",
           "description": "Curso 1",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "20. Diplomado en Inteligencia de Negocios/Curso 1. Ventas B2B y Gestión de Cuentas/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-20-1-1",
               "title": "Fundamentos de la venta b2b",
               "filename": "unidad-1-fundamentos-de-la-venta-b2b.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-1-2",
               "title": "Construccion del proceso de venta y la propuesta de valor",
               "filename": "unidad-2-construccion-del-proceso-de-venta-y-la-propuesta-de-valor.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-1-3",
               "title": "Gestion y analisis de cuentas estrategicas",
               "filename": "unidad-3-gestion-y-analisis-de-cuentas-estrategicas.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-1-4",
               "title": "Plan integral de gestion de cuenta estrategica",
               "filename": "unidad-4-plan-integral-de-gestion-de-cuenta-estrategica.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2800,35 +2749,32 @@
           "id": "d-20-2",
           "title": "Curso 2",
           "description": "Curso 2",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "20. Diplomado en Inteligencia de Negocios/Curso 2. Negociación y Cierre de Acuerdos/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-20-2-1",
               "title": "Fundamentos de la negociacion",
               "filename": "unidad-1-fundamentos-de-la-negociacion.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-2-2",
               "title": "Conduccion de la negociacion comunicacion valor y propuestas",
               "filename": "unidad-2-conduccion-de-la-negociacion-comunicacion-valor-y-propuestas.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-2-3",
               "title": "Objeciones tacticas y escenarios dificiles",
               "filename": "unidad-3-objeciones-tacticas-y-escenarios-dificiles.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-2-4",
               "title": "Cierre del acuerdo y estrategia integral de negociacion",
               "filename": "unidad-4-cierre-del-acuerdo-y-estrategia-integral-de-negociacion.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2836,35 +2782,32 @@
           "id": "d-20-3",
           "title": "Curso 3",
           "description": "Curso 3",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "20. Diplomado en Inteligencia de Negocios/Curso 3. Liderazgo Remoto y Gestión de Equipos/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-20-3-1",
               "title": "Fundamentos del liderazgo remoto",
               "filename": "unidad-1-fundamentos-del-liderazgo-remoto.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-3-2",
               "title": "Coordinacion y productividad del equipo distribuido",
               "filename": "unidad-2-coordinacion-y-productividad-del-equipo-distribuido.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-3-3",
               "title": "Salud desempeno y dinamica del equipo remoto",
               "filename": "unidad-3-salud-desempeno-y-dinamica-del-equipo-remoto.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-3-4",
               "title": "Diseno de un modelo de liderazgo remoto integrado",
               "filename": "unidad-4-diseno-de-un-modelo-de-liderazgo-remoto-integrado.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         },
@@ -2872,35 +2815,32 @@
           "id": "d-20-4",
           "title": "Curso 4",
           "description": "Curso 4",
-          "createdAt": "2026-01-15",
+          "createdAt": "2026-08-14",
+          "folder": "20. Diplomado en Inteligencia de Negocios/Curso 4. Analítica de Negocios con IA/Producción y diseño/SCORM",
           "unidades": [
             {
               "id": "u-20-4-1",
               "title": "Fundamentos de la analitica de negocios con ia",
               "filename": "unidad-1-fundamentos-de-la-analitica-de-negocios-con-ia.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-4-2",
               "title": "Analisis y visualizacion de datos para decidir",
               "filename": "unidad-2-analisis-y-visualizacion-de-datos-para-decidir.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-4-3",
               "title": "De los datos a los insights con ia",
               "filename": "unidad-3-de-los-datos-a-los-insights-con-ia.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             },
             {
               "id": "u-20-4-4",
               "title": "Del analisis a la decision estrategica",
               "filename": "unidad-4-del-analisis-a-la-decision-estrategica.zip",
-              "createdAt": "",
-              "pending": true
+              "createdAt": "2026-08-14"
             }
           ]
         }
